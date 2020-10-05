@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="DebugGame_Game|Win32">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|x64">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|Win32">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|x64">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Game|Win32">
+			<Configuration>HTML5_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Game|x64">
+			<Configuration>HTML5_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Editor|Win32">
+			<Configuration>HTML5_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Editor|x64">
+			<Configuration>HTML5_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|Win32">
+			<Configuration>Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|x64">
+			<Configuration>Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|Win32">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|x64">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Game|Win32">
+			<Configuration>HTML5_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Game|x64">
+			<Configuration>HTML5_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Editor|Win32">
+			<Configuration>HTML5_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Editor|x64">
+			<Configuration>HTML5_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|Win32">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|x64">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Game|Win32">
+			<Configuration>HTML5_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Game|x64">
+			<Configuration>HTML5_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{347642BE-4B65-4B47-8A28-130C78B80181}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>Mordhau</RootNamespace>
+		<PlatformToolset>v141</PlatformToolset>
+		<MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+		<TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectCapability Include="MLProject" />
+		<PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat Mordhau Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat Mordhau Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat Mordhau Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Mordhau-Win32-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+		<OutDir>E:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>E:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Win32 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Win32 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Win32 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat Mordhau Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat Mordhau Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat Mordhau Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Mordhau-Win64-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat MordhauEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat MordhauEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat MordhauEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>E:\Games\UE_4.20\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat Mordhau HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat Mordhau HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat Mordhau HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\Mordhau-HTML5-DebugGame.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'">
+		<OutDir>E:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>E:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo HTML5 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo HTML5 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat Mordhau Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat Mordhau Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat Mordhau Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Mordhau.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+		<OutDir>E:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>E:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Win32 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Win32 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Win32 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat Mordhau Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat Mordhau Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat Mordhau Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Mordhau.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat MordhauEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat MordhauEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat MordhauEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>E:\Games\UE_4.20\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat Mordhau HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat Mordhau HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat Mordhau HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\Mordhau.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'">
+		<OutDir>E:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>E:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo HTML5 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo HTML5 is not a supported platform for MordhauEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat Mordhau Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat Mordhau Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat Mordhau Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Mordhau-Win32-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat Mordhau Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat Mordhau Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat Mordhau Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Mordhau-Win64-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat Mordhau HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat Mordhau HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat Mordhau HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\Mordhau-HTML5-Shipping.js</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\Mordhau.uproject" />
+		<None Include="..\..\Source\Mordhau.Target.cs" />
+		<None Include="..\..\Source\MordhauEditor.Target.cs" />
+		<None Include="..\..\Config\DefaultEditor.ini" />
+		<None Include="..\..\Config\DefaultEngine.ini" />
+		<None Include="..\..\Config\DefaultGame.ini" />
+		<None Include="..\..\Config\DefaultInput.ini" />
+		<None Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\MordhauOnlineSubsystem.Build.cs" />
+		<ClCompile Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Private\DummyActor.cpp" />
+		<ClCompile Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Private\MordhauOnlineSubsystem.cpp" />
+		<ClInclude Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Public\DummyActor.h" />
+		<ClInclude Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Public\MordhauOnlineSubsystem.h" />
+		<None Include="..\..\Plugins\MordhauOnlineSubsystem\MordhauOnlineSubsystem.uplugin" />
+		<None Include="..\..\Plugins\MordhauOnlineSubsystem\Resources\Icon128.png" />
+		<ClCompile Include="..\..\Source\Mordhau\AdvancedCharacter.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\AdvancedCharacter.h" />
+		<ClCompile Include="..\..\Source\Mordhau\AdvancedCharacterAnimInstance.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\AdvancedCharacterAnimInstance.h" />
+		<ClCompile Include="..\..\Source\Mordhau\AdvancedCharacterMovement.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\AdvancedCharacterMovement.h" />
+		<ClCompile Include="..\..\Source\Mordhau\AdvProjectileMovementComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\AdvProjectileMovementComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\Archetype.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Archetype.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ArmsWearable.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ArmsWearable.h" />
+		<ClCompile Include="..\..\Source\Mordhau\AttackMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\AttackMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ATurret.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ATurret.h" />
+		<ClCompile Include="..\..\Source\Mordhau\Badge.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Badge.h" />
+		<ClCompile Include="..\..\Source\Mordhau\BlockedMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\BlockedMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\BotBehaviorProfile.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\BotBehaviorProfile.h" />
+		<ClCompile Include="..\..\Source\Mordhau\BotProfile.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\BotProfile.h" />
+		<ClCompile Include="..\..\Source\Mordhau\CapturePointBanner.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\CapturePointBanner.h" />
+		<ClCompile Include="..\..\Source\Mordhau\Catapult.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Catapult.h" />
+		<ClCompile Include="..\..\Source\Mordhau\CharacterFace.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\CharacterFace.h" />
+		<ClCompile Include="..\..\Source\Mordhau\CharacterHair.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\CharacterHair.h" />
+		<ClCompile Include="..\..\Source\Mordhau\CharacterProfileBPWrapper.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\CharacterProfileBPWrapper.h" />
+		<ClCompile Include="..\..\Source\Mordhau\CharacterVoice.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\CharacterVoice.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ClimbingMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ClimbingMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ComboBoxText.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ComboBoxText.h" />
+		<ClCompile Include="..\..\Source\Mordhau\CompoundVehicleAnimInstance.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\CompoundVehicleAnimInstance.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ControlPoint.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ControlPoint.h" />
+		<ClCompile Include="..\..\Source\Mordhau\CouchedAttackMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\CouchedAttackMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\CreatureAnimInstance.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\CreatureAnimInstance.h" />
+		<ClCompile Include="..\..\Source\Mordhau\CustomizationReplicationActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\CustomizationReplicationActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\DisarmedMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\DisarmedMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\DropEquipmentMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\DropEquipmentMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\Emblem.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Emblem.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EmoteCancelMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EmoteCancelMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EmoteMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EmoteMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EmoteSwitcherMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EmoteSwitcherMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EnterVehicleMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EnterVehicleMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EnvironmentMovable.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EnvironmentMovable.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EnvQueryGenerator_Equipment.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EnvQueryGenerator_Equipment.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EnvQueryGenerator_Objectives.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EnvQueryGenerator_Objectives.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EnvQueryTest_Obectives.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EnvQueryTest_Obectives.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EquipmentModeSwitchMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EquipmentModeSwitchMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\EquipmentSwitchMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\EquipmentSwitchMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\FeintedMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\FeintedMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\FieldSpawnComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\FieldSpawnComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\FistsWeapon.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\FistsWeapon.h" />
+		<ClCompile Include="..\..\Source\Mordhau\FistWeapon.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\FistWeapon.h" />
+		<ClCompile Include="..\..\Source\Mordhau\FlinchMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\FlinchMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\GameModeMetadata.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\GameModeMetadata.h" />
+		<ClCompile Include="..\..\Source\Mordhau\GoreActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\GoreActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\HeadWearable.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\HeadWearable.h" />
+		<ClCompile Include="..\..\Source\Mordhau\HolsterMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\HolsterMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\Horse.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Horse.h" />
+		<ClCompile Include="..\..\Source\Mordhau\HorseAnimInstance.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\HorseAnimInstance.h" />
+		<ClCompile Include="..\..\Source\Mordhau\HorseMovementComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\HorseMovementComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\IdleMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\IdleMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\InteractionComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\InteractionComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\InteractMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\InteractMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\InteractWithMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\InteractWithMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ItemPattern.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ItemPattern.h" />
+		<ClCompile Include="..\..\Source\Mordhau\KickWeapon.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\KickWeapon.h" />
+		<ClCompile Include="..\..\Source\Mordhau\LateTickComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\LateTickComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\LeaveVehicleMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\LeaveVehicleMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\LegsWearable.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\LegsWearable.h" />
+		<ClCompile Include="..\..\Source\Mordhau\LODSkeletalMeshComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\LODSkeletalMeshComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\LODStaticMeshActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\LODStaticMeshActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\LODStaticMeshComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\LODStaticMeshComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MapCameraActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MapCameraActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MapMetadata.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MapMetadata.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MasterField.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MasterField.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MeleeWeaponAnimationProfile.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MeleeWeaponAnimationProfile.h" />
+		<None Include="..\..\Source\Mordhau\Mordhau.Build.cs" />
+		<ClCompile Include="..\..\Source\Mordhau\Mordhau.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Mordhau.h" />
+		<ClCompile Include="..\..\Source\Mordhau\Mordhau1DVehicle.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Mordhau1DVehicle.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauAIController.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauAIController.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauAnimInstance.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauAnimInstance.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauAnimMetaData.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauAnimMetaData.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCameraComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCameraComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCameraManager.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCameraManager.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCapsuleComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCapsuleComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCharacter.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCharacter.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauColor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauColor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCompoundVehicle.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCompoundVehicle.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauDialog.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauDialog.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauEngineMessage.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauEngineMessage.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauEQSTestingPawn.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauEQSTestingPawn.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauEquipment.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauEquipment.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauEquipmentPart.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauEquipmentPart.h" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauFunctionLibrary.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameInstance.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameInstance.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameMode.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameMode.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameModeBase.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameModeBase.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameSession.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameSession.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameState.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameState.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameUserSettings.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameUserSettings.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauHUD.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauHUD.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauInput.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauInput.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauInventory.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauInventory.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauInventoryItem.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauInventoryItem.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauLevelScriptActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauLevelScriptActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauMovementComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauMovementComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauPhysicsCollisionHandler.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauPhysicsCollisionHandler.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauPlayerController.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauPlayerController.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauPlayerStart.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauPlayerStart.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauPlayerState.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauPlayerState.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauProjectile.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauProjectile.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauQuest.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauQuest.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauSceneComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauSceneComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauShield.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauShield.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauSingleton.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauSingleton.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauSpectator.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauSpectator.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauStats.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauStats.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauTypes.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauTypes.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauUserWidget.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauUserWidget.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauUtilityLibrary.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauUtilityLibrary.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauVehicle.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauVehicle.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWeapon.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWeapon.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWearable.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWearable.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWebAPI.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWebAPI.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWheeledVehicle.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWheeledVehicle.h" />
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWidgetComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWidgetComponent.h" />
+		<None Include="..\..\Source\Mordhau\Mordhau_classes.hpp" />
+		<ClCompile Include="..\..\Source\Mordhau\OneDimensionalMovementComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\OneDimensionalMovementComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ParryMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ParryMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ParticleSystemActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ParticleSystemActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\Perk.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Perk.h" />
+		<ClCompile Include="..\..\Source\Mordhau\PhysicsProxy.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\PhysicsProxy.h" />
+		<ClCompile Include="..\..\Source\Mordhau\PommelThrowDrawMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\PommelThrowDrawMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\PommelThrowReleaseMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\PommelThrowReleaseMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\PreSkinnedPoseOracle.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\PreSkinnedPoseOracle.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ProgressActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ProgressActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ProgressDriver.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ProgressDriver.h" />
+		<ClCompile Include="..\..\Source\Mordhau\PseudoVehicleMovementComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\PseudoVehicleMovementComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\PushableActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\PushableActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\QuickthrowDrawMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\QuickthrowDrawMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\QuickthrowReleaseMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\QuickthrowReleaseMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\Quiver.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Quiver.h" />
+		<ClCompile Include="..\..\Source\Mordhau\RagdollFallingMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\RagdollFallingMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\RangedCancelMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\RangedCancelMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\RangedDrawMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\RangedDrawMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\RangedReleaseMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\RangedReleaseMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ReloadMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ReloadMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\SeparatedBodyPart.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\SeparatedBodyPart.h" />
+		<ClCompile Include="..\..\Source\Mordhau\SeparatedBodyPartAnimInstance.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\SeparatedBodyPartAnimInstance.h" />
+		<ClCompile Include="..\..\Source\Mordhau\SkeletalMeshCapturePointBanner.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\SkeletalMeshCapturePointBanner.h" />
+		<ClCompile Include="..\..\Source\Mordhau\SkeletalMeshMordhauActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\SkeletalMeshMordhauActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\SlaveProgressDriver.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\SlaveProgressDriver.h" />
+		<ClCompile Include="..\..\Source\Mordhau\StaticMeshCapturePointBanner.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\StaticMeshCapturePointBanner.h" />
+		<ClCompile Include="..\..\Source\Mordhau\StaticMeshMordhauActor.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\StaticMeshMordhauActor.h" />
+		<ClCompile Include="..\..\Source\Mordhau\StunMotion.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\StunMotion.h" />
+		<ClCompile Include="..\..\Source\Mordhau\SubField.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\SubField.h" />
+		<ClCompile Include="..\..\Source\Mordhau\ThudderComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\ThudderComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\Turret.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\Turret.h" />
+		<ClCompile Include="..\..\Source\Mordhau\UpdateMordhauSession.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\UpdateMordhauSession.h" />
+		<ClCompile Include="..\..\Source\Mordhau\UpperChestWearable.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\UpperChestWearable.h" />
+		<ClCompile Include="..\..\Source\Mordhau\VelocityBoxComponent.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\VelocityBoxComponent.h" />
+		<ClCompile Include="..\..\Source\Mordhau\VirtualWeapon.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\VirtualWeapon.h" />
+		<ClCompile Include="..\..\Source\Mordhau\WebAPI.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\WebAPI.h" />
+		<ClCompile Include="..\..\Source\Mordhau\WheeledVehicleAnimInstance.cpp" />
+		<ClInclude Include="..\..\Source\Mordhau\WheeledVehicleAnimInstance.h" />
+	</ItemGroup>
+	<PropertyGroup>
+		<SourcePath>E:\Games\UE_4.20\Engine\Source\Developer\TreeMap;E:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private;E:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private\Actions;E:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private\BehaviorTree;E:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private\MockAI;E:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private\Tests;E:\Games\UE_4.20\Engine\Source\Developer\AllDesktopTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Android\AndroidDeviceDetection\Private;E:\Games\UE_4.20\Engine\Source\Developer\Android\AndroidPlatformEditor\Private;E:\Games\UE_4.20\Engine\Source\Developer\Android\AndroidTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Android\Android_ETC1aTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Apple\MetalShaderFormat\Private;E:\Games\UE_4.20\Engine\Source\Developer\AssetTools\Private;E:\Games\UE_4.20\Engine\Source\Developer\AssetTools\Private\AssetTypeActions;E:\Games\UE_4.20\Engine\Source\Developer\AudioFormatADPCM\Private;E:\Games\UE_4.20\Engine\Source\Developer\AudioFormatOgg\Private;E:\Games\UE_4.20\Engine\Source\Developer\AudioFormatOpus\Private;E:\Games\UE_4.20\Engine\Source\Developer\AudioSettingsEditor\Private;E:\Games\UE_4.20\Engine\Source\Developer\AutomationController\Private;E:\Games\UE_4.20\Engine\Source\Developer\AutomationDriver\Private;E:\Games\UE_4.20\Engine\Source\Developer\AutomationDriver\Private\Locators;E:\Games\UE_4.20\Engine\Source\Developer\AutomationDriver\Private\Specs;E:\Games\UE_4.20\Engine\Source\Developer\AutomationWindow\Private;E:\Games\UE_4.20\Engine\Source\Developer\BlankModule\Private;E:\Games\UE_4.20\Engine\Source\Developer\BlueprintCompilerCppBackend\Private;E:\Games\UE_4.20\Engine\Source\Developer\BlueprintNativeCodeGen\Private;E:\Games\UE_4.20\Engine\Source\Developer\CollectionManager\Private;E:\Games\UE_4.20\Engine\Source\Developer\CollisionAnalyzer\Private;E:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private;E:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private\IOS;E:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private\Linux;E:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private\Mac;E:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private\Windows;E:\Games\UE_4.20\Engine\Source\Developer\CrashReportHelper\Private;E:\Games\UE_4.20\Engine\Source\Developer\CrashReportHelper\Private\IOS;E:\Games\UE_4.20\Engine\Source\Developer\CrashReportHelper\Private\Mac;E:\Games\UE_4.20\Engine\Source\Developer\CrashReportHelper\Private\Windows;E:\Games\UE_4.20\Engine\Source\Developer\DerivedDataCache\Private;E:\Games\UE_4.20\Engine\Source\Developer\DesktopPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\DesktopPlatform\Private\Linux;E:\Games\UE_4.20\Engine\Source\Developer\DesktopPlatform\Private\Mac;E:\Games\UE_4.20\Engine\Source\Developer\DesktopPlatform\Private\Windows;E:\Games\UE_4.20\Engine\Source\Developer\DesktopWidgets\Private;E:\Games\UE_4.20\Engine\Source\Developer\DesktopWidgets\Private\Widgets\Input;E:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private;E:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Apps;E:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Browser;E:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Details;E:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Processes;E:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Toolbar;E:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private;E:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private\Linux;E:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private\Mac;E:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private\Tests;E:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private\Windows;E:\Games\UE_4.20\Engine\Source\Developer\ExternalImagePicker\Private;E:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting\Private;E:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting\Private\Tests;E:\Games\UE_4.20\Engine\Source\Developer\GameplayDebugger\Private;E:\Games\UE_4.20\Engine\Source\Developer\GameplayDebugger\Private\Editor;E:\Games\UE_4.20\Engine\Source\Developer\GammaUI\Private;E:\Games\UE_4.20\Engine\Source\Developer\GraphColor\Private;E:\Games\UE_4.20\Engine\Source\Developer\HierarchicalLODUtilities\Private;E:\Games\UE_4.20\Engine\Source\Developer\HotReload\Private;E:\Games\UE_4.20\Engine\Source\Developer\HTML5\HTML5PlatformEditor\Private;E:\Games\UE_4.20\Engine\Source\Developer\HTML5\HTML5TargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\IOS\IOSPlatformEditor\Private;E:\Games\UE_4.20\Engine\Source\Developer\IOS\IOSTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\IOS\IOSTargetPlatform\Private\Mac;E:\Games\UE_4.20\Engine\Source\Developer\IOS\IOSTargetPlatform\Private\Windows;E:\Games\UE_4.20\Engine\Source\Developer\IOS\TVOSTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\LauncherServices\Private;E:\Games\UE_4.20\Engine\Source\Developer\LauncherServices\Private\Launcher;E:\Games\UE_4.20\Engine\Source\Developer\LauncherServices\Private\Profiles;E:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxClientTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxNoEditorTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxPlatformEditor\Private;E:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxServerTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Localization\Private;E:\Games\UE_4.20\Engine\Source\Developer\Localization\Private\Serialization;E:\Games\UE_4.20\Engine\Source\Developer\LocalizationService\Private;E:\Games\UE_4.20\Engine\Source\Developer\LogVisualizer\Private;E:\Games\UE_4.20\Engine\Source\Developer\Lumin\LuminPlatformEditor\Private;E:\Games\UE_4.20\Engine\Source\Developer\Lumin\LuminTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Mac\MacClientTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Mac\MacNoEditorTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Mac\MacPlatformEditor\Private;E:\Games\UE_4.20\Engine\Source\Developer\Mac\MacServerTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Mac\MacTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\MaterialBaking\Private;E:\Games\UE_4.20\Engine\Source\Developer\MaterialUtilities\Private;E:\Games\UE_4.20\Engine\Source\Developer\Merge\Private;E:\Games\UE_4.20\Engine\Source\Developer\MeshBoneReduction\Private;E:\Games\UE_4.20\Engine\Source\Developer\MeshBuilder\Private;E:\Games\UE_4.20\Engine\Source\Developer\MeshDescriptionOperations\Private;E:\Games\UE_4.20\Engine\Source\Developer\MeshMergeUtilities\Private;E:\Games\UE_4.20\Engine\Source\Developer\MeshReductionInterface\Private;E:\Games\UE_4.20\Engine\Source\Developer\MeshSimplifier\Private;E:\Games\UE_4.20\Engine\Source\Developer\MeshUtilities\Private;E:\Games\UE_4.20\Engine\Source\Developer\MessageLog\Private;E:\Games\UE_4.20\Engine\Source\Developer\MessageLog\Private\Model;E:\Games\UE_4.20\Engine\Source\Developer\MessageLog\Private\Presentation;E:\Games\UE_4.20\Engine\Source\Developer\MessageLog\Private\UserInterface;E:\Games\UE_4.20\Engine\Source\Developer\ModuleUI\Private;E:\Games\UE_4.20\Engine\Source\Developer\OutputLog\Private;E:\Games\UE_4.20\Engine\Source\Developer\Profiler\Private;E:\Games\UE_4.20\Engine\Source\Developer\Profiler\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Developer\ProfilerClient\Private;E:\Games\UE_4.20\Engine\Source\Developer\ProfilerMessages\Private;E:\Games\UE_4.20\Engine\Source\Developer\ProfilerService\Private;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Archive;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Build;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Cook;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Deploy;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Launch;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Package;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Preview;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Profile;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Progress;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Project;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Settings;E:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Shared;E:\Games\UE_4.20\Engine\Source\Developer\RawMesh\Private;E:\Games\UE_4.20\Engine\Source\Developer\RealtimeProfiler\Private;E:\Games\UE_4.20\Engine\Source\Developer\ScreenShotComparison\Private;E:\Games\UE_4.20\Engine\Source\Developer\ScreenShotComparison\Private\Models;E:\Games\UE_4.20\Engine\Source\Developer\ScreenShotComparison\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Developer\ScreenShotComparisonTools\Private;E:\Games\UE_4.20\Engine\Source\Developer\SessionFrontend\Private;E:\Games\UE_4.20\Engine\Source\Developer\SessionFrontend\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Developer\SessionFrontend\Private\Widgets\Browser;E:\Games\UE_4.20\Engine\Source\Developer\SessionFrontend\Private\Widgets\Console;E:\Games\UE_4.20\Engine\Source\Developer\Settings\Private;E:\Games\UE_4.20\Engine\Source\Developer\SettingsEditor\Private;E:\Games\UE_4.20\Engine\Source\Developer\SettingsEditor\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Developer\ShaderCompilerCommon\Private;E:\Games\UE_4.20\Engine\Source\Developer\ShaderFormatOpenGL\Private;E:\Games\UE_4.20\Engine\Source\Developer\ShaderFormatVectorVM\Private;E:\Games\UE_4.20\Engine\Source\Developer\ShaderPreprocessor\Private;E:\Games\UE_4.20\Engine\Source\Developer\SharedSettingsWidgets\Private;E:\Games\UE_4.20\Engine\Source\Developer\SimplygonMeshReduction\Private;E:\Games\UE_4.20\Engine\Source\Developer\SimplygonSwarm\Private;E:\Games\UE_4.20\Engine\Source\Developer\SlackIntegrations\Private;E:\Games\UE_4.20\Engine\Source\Developer\SlateFileDialogs\Private;E:\Games\UE_4.20\Engine\Source\Developer\SlateReflector\Private;E:\Games\UE_4.20\Engine\Source\Developer\SlateReflector\Private\Models;E:\Games\UE_4.20\Engine\Source\Developer\SlateReflector\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Developer\SourceCodeAccess\Private;E:\Games\UE_4.20\Engine\Source\Developer\SourceControl\Private;E:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private;E:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\ios;E:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\OpenGL;E:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\Linux\OpenGL;E:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\Mac\OpenGL;E:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\Windows\D3D;E:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\Windows\OpenGL;E:\Games\UE_4.20\Engine\Source\Developer\TargetDeviceServices\Private;E:\Games\UE_4.20\Engine\Source\Developer\TargetDeviceServices\Private\Proxies;E:\Games\UE_4.20\Engine\Source\Developer\TargetDeviceServices\Private\Services;E:\Games\UE_4.20\Engine\Source\Developer\TargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\TaskGraph\Private;E:\Games\UE_4.20\Engine\Source\Developer\TextureCompressor\Private;E:\Games\UE_4.20\Engine\Source\Developer\TextureFormatAndroid\Private;E:\Games\UE_4.20\Engine\Source\Developer\TextureFormatASTC\Private;E:\Games\UE_4.20\Engine\Source\Developer\TextureFormatDXT\Private;E:\Games\UE_4.20\Engine\Source\Developer\TextureFormatIntelISPCTexComp\Private;E:\Games\UE_4.20\Engine\Source\Developer\TextureFormatPVR\Private;E:\Games\UE_4.20\Engine\Source\Developer\TextureFormatUncompressed\Private;E:\Games\UE_4.20\Engine\Source\Developer\VulkanShaderFormat\Private;E:\Games\UE_4.20\Engine\Source\Developer\Windows\ShaderFormatD3D\Private;E:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsClientTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsNoEditorTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsPlatformEditor\Private;E:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsServerTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsTargetPlatform\Private;E:\Games\UE_4.20\Engine\Source\Developer\XGEController\Private;E:\Games\UE_4.20\Engine\Source\Editor\UATHelper;E:\Games\UE_4.20\Engine\Source\Editor\ViewportInteraction;E:\Games\UE_4.20\Engine\Source\Editor\VREditor;E:\Games\UE_4.20\Engine\Source\Editor\ActorPickerMode\Private;E:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog\Private;E:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog\Private\ViewModels;E:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog\Private\ContentSourceProviders\FeaturePack;E:\Games\UE_4.20\Engine\Source\Editor\AdvancedPreviewScene\Private;E:\Games\UE_4.20\Engine\Source\Editor\AIGraph\Private;E:\Games\UE_4.20\Engine\Source\Editor\AnimationBlueprintEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\AnimationBlueprintEditor\Private\AnimationNodes;E:\Games\UE_4.20\Engine\Source\Editor\AnimationBlueprintEditor\Private\AnimationPins;E:\Games\UE_4.20\Engine\Source\Editor\AnimationBlueprintEditor\Private\AnimationStateNodes;E:\Games\UE_4.20\Engine\Source\Editor\AnimationEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\AnimationModifiers\Private;E:\Games\UE_4.20\Engine\Source\Editor\AnimGraph\Private;E:\Games\UE_4.20\Engine\Source\Editor\AnimGraph\Private\EditModes;E:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Private\AssetTypeActions;E:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Private\Factories;E:\Games\UE_4.20\Engine\Source\Editor\BehaviorTreeEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\BehaviorTreeEditor\Private\DetailCustomizations;E:\Games\UE_4.20\Engine\Source\Editor\BlueprintGraph\Private;E:\Games\UE_4.20\Engine\Source\Editor\Blutility\Private;E:\Games\UE_4.20\Engine\Source\Editor\BspMode\Private;E:\Games\UE_4.20\Engine\Source\Editor\Cascade\Private;E:\Games\UE_4.20\Engine\Source\Editor\Cascade\Private\Tests;E:\Games\UE_4.20\Engine\Source\Editor\ClassViewer\Private;E:\Games\UE_4.20\Engine\Source\Editor\ClothingSystemEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\ClothingSystemEditorInterface\Private;E:\Games\UE_4.20\Engine\Source\Editor\ClothPainter\Private;E:\Games\UE_4.20\Engine\Source\Editor\CommonMenuExtensions\Private;E:\Games\UE_4.20\Engine\Source\Editor\ComponentVisualizers\Private;E:\Games\UE_4.20\Engine\Source\Editor\ConfigEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\ConfigEditor\Private\PropertyVisualization;E:\Games\UE_4.20\Engine\Source\Editor\ContentBrowser\Private;E:\Games\UE_4.20\Engine\Source\Editor\CurveAssetEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\CurveEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\CurveEditor\Private\DragOperations;E:\Games\UE_4.20\Engine\Source\Editor\CurveTableEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\DataTableEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\DetailCustomizations\Private;E:\Games\UE_4.20\Engine\Source\Editor\DeviceProfileEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\DeviceProfileEditor\Private\DetailsPanel;E:\Games\UE_4.20\Engine\Source\Editor\DeviceProfileServices\Private;E:\Games\UE_4.20\Engine\Source\Editor\DistCurveEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\Documentation\Private;E:\Games\UE_4.20\Engine\Source\Editor\EditorSettingsViewer\Private;E:\Games\UE_4.20\Engine\Source\Editor\EditorStyle\Private;E:\Games\UE_4.20\Engine\Source\Editor\EditorWidgets\Private;E:\Games\UE_4.20\Engine\Source\Editor\EnvironmentQueryEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\EnvironmentQueryEditor\Private\DetailCustomizations;E:\Games\UE_4.20\Engine\Source\Editor\FoliageEdit\Private;E:\Games\UE_4.20\Engine\Source\Editor\FontEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\GameplayTasksEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\GameProjectGeneration\Private;E:\Games\UE_4.20\Engine\Source\Editor\GameProjectGeneration\Private\Tests;E:\Games\UE_4.20\Engine\Source\Editor\GeometryMode\Private;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\KismetNodes;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\KismetPins;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\MaterialNodes;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\MaterialPins;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\NiagaraPins;E:\Games\UE_4.20\Engine\Source\Editor\HardwareTargeting\Private;E:\Games\UE_4.20\Engine\Source\Editor\HierarchicalLODOutliner\Private;E:\Games\UE_4.20\Engine\Source\Editor\InputBindingEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\InputBindingEditor\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Editor\InternationalizationSettings\Private;E:\Games\UE_4.20\Engine\Source\Editor\IntroTutorials\Private;E:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private;E:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private\Debugging;E:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private\Nodes;E:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private\Tests;E:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private\WorkflowOrientedApp;E:\Games\UE_4.20\Engine\Source\Editor\KismetCompiler\Private;E:\Games\UE_4.20\Engine\Source\Editor\KismetWidgets\Private;E:\Games\UE_4.20\Engine\Source\Editor\LandscapeEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\LandscapeEditor\Private\Tests;E:\Games\UE_4.20\Engine\Source\Editor\Layers\Private;E:\Games\UE_4.20\Engine\Source\Editor\LevelEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\LocalizationCommandletExecution\Private;E:\Games\UE_4.20\Engine\Source\Editor\LocalizationDashboard\Private;E:\Games\UE_4.20\Engine\Source\Editor\MainFrame\Private;E:\Games\UE_4.20\Engine\Source\Editor\MainFrame\Private\Frame;E:\Games\UE_4.20\Engine\Source\Editor\MainFrame\Private\Menus;E:\Games\UE_4.20\Engine\Source\Editor\MaterialEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\MaterialEditor\Private\Tests;E:\Games\UE_4.20\Engine\Source\Editor\Matinee\Private;E:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private;E:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private\MergeProxyUtils;E:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private\MeshInstancingTool;E:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private\MeshMergingTool;E:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private\MeshProxyTool;E:\Games\UE_4.20\Engine\Source\Editor\MeshPaint\Private;E:\Games\UE_4.20\Engine\Source\Editor\MeshPaintMode\Private;E:\Games\UE_4.20\Engine\Source\Editor\MovieSceneCaptureDialog\Private;E:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private;E:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\Channels;E:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\CurveKeyEditors;E:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\FCPXML;E:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\Sections;E:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\TrackEditors;E:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\TrackEditorThumbnail;E:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\TrackEditors\PropertyTrackEditors;E:\Games\UE_4.20\Engine\Source\Editor\NewLevelDialog\Private;E:\Games\UE_4.20\Engine\Source\Editor\OverlayEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\OverlayEditor\Private\Factories;E:\Games\UE_4.20\Engine\Source\Editor\PackagesDialog\Private;E:\Games\UE_4.20\Engine\Source\Editor\Persona\Private;E:\Games\UE_4.20\Engine\Source\Editor\Persona\Public;E:\Games\UE_4.20\Engine\Source\Editor\Persona\Private\Customization;E:\Games\UE_4.20\Engine\Source\Editor\Persona\Private\EditModes;E:\Games\UE_4.20\Engine\Source\Editor\Persona\Private\Shared;E:\Games\UE_4.20\Engine\Source\Editor\PhysicsAssetEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\PhysicsAssetEditor\Private\PhysicsAssetGraph;E:\Games\UE_4.20\Engine\Source\Editor\PIEPreviewDeviceProfileSelector\Private;E:\Games\UE_4.20\Engine\Source\Editor\PinnedCommandList\Private;E:\Games\UE_4.20\Engine\Source\Editor\PixelInspector\Private;E:\Games\UE_4.20\Engine\Source\Editor\PlacementMode\Private;E:\Games\UE_4.20\Engine\Source\Editor\PListEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\PluginWarden\Private;E:\Games\UE_4.20\Engine\Source\Editor\ProjectSettingsViewer\Private;E:\Games\UE_4.20\Engine\Source\Editor\ProjectTargetPlatformEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\ProjectTargetPlatformEditor\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\Presentation\PropertyEditor;E:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\Presentation\PropertyTable;E:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyDetails;E:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyEditor;E:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyTable;E:\Games\UE_4.20\Engine\Source\Editor\SceneDepthPickerMode\Private;E:\Games\UE_4.20\Engine\Source\Editor\SceneOutliner\Private;E:\Games\UE_4.20\Engine\Source\Editor\Sequencer\Private;E:\Games\UE_4.20\Engine\Source\Editor\Sequencer\Private\DisplayNodes;E:\Games\UE_4.20\Engine\Source\Editor\Sequencer\Private\Tools;E:\Games\UE_4.20\Engine\Source\Editor\SequenceRecorder\Private;E:\Games\UE_4.20\Engine\Source\Editor\SequenceRecorder\Private\Sections;E:\Games\UE_4.20\Engine\Source\Editor\SequenceRecorderSections\Private;E:\Games\UE_4.20\Engine\Source\Editor\SequencerWidgets\Private;E:\Games\UE_4.20\Engine\Source\Editor\SkeletalMeshEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\SkeletonEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\SourceControlWindows\Private;E:\Games\UE_4.20\Engine\Source\Editor\StaticMeshEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\StatsViewer\Private;E:\Games\UE_4.20\Engine\Source\Editor\StatsViewer\Private\StatsEntries;E:\Games\UE_4.20\Engine\Source\Editor\StatsViewer\Private\StatsPages;E:\Games\UE_4.20\Engine\Source\Editor\StringTableEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\SwarmInterface\Private;E:\Games\UE_4.20\Engine\Source\Editor\TextureAlignMode\Private;E:\Games\UE_4.20\Engine\Source\Editor\TextureEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\TextureEditor\Private\Customizations;E:\Games\UE_4.20\Engine\Source\Editor\TextureEditor\Private\Models;E:\Games\UE_4.20\Engine\Source\Editor\TextureEditor\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Editor\TranslationEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Animation;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\BlueprintModes;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Customizations;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Designer;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Details;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\DragDrop;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Extensions;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Hierarchy;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Nodes;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Palette;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Settings;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\TabFactory;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Templates;E:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Utility;E:\Games\UE_4.20\Engine\Source\Editor\UndoHistory\Private;E:\Games\UE_4.20\Engine\Source\Editor\UndoHistory\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Analytics;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Animation;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\AutoReimport;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Commandlets;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Dialogs;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\DragAndDrop;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Editor;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Factories;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Fbx;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Features;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Kismet2;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Layers;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Lightmass;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\MaterialEditor;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Settings;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\StaticLightingSystem;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Tests;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\ThumbnailRendering;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Toolkits;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEdMessages\Private;E:\Games\UE_4.20\Engine\Source\Editor\ViewportInteraction\Gizmo;E:\Games\UE_4.20\Engine\Source\Editor\ViewportSnapping\Private;E:\Games\UE_4.20\Engine\Source\Editor\VREditor\Teleporter;E:\Games\UE_4.20\Engine\Source\Editor\VREditor\UI;E:\Games\UE_4.20\Engine\Source\Editor\WorkspaceMenuStructure\Private;E:\Games\UE_4.20\Engine\Source\Editor\WorldBrowser\Private;E:\Games\UE_4.20\Engine\Source\Editor\WorldBrowser\Private\StreamingLevels;E:\Games\UE_4.20\Engine\Source\Editor\WorldBrowser\Private\Tiles;E:\Games\UE_4.20\Engine\Source\Programs\UnrealHeaderTool\Private;E:\Games\UE_4.20\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers;E:\Games\UE_4.20\Engine\Source\Runtime\Advertising\Advertising\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Advertising\Android\AndroidAdvertising\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Advertising\IOS\IOSAdvertising\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Actions;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Blueprint;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\DataProviders;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\GameplayDebugger;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\HotSpots;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Navigation;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Perception;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Tasks;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Blackboard;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Composites;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Decorators;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Services;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Tasks;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Contexts;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Generators;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Items;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\ALAudio\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Analytics\Analytics\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Analytics\AnalyticsET\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Analytics\AnalyticsSwrve\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Analytics\AnalyticsVisualEditing\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Analytics\QoSReporter\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Android\AndroidAudio\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Android\AndroidLocalNotification\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Android\AndroidRuntimeSettings\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Android\AudioMixerAndroid\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AnimationCore\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Private\AnimNodes;E:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Private\BoneControllers;E:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Private\RBF;E:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Public\BoneControllers;E:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private\Framework\Testing;E:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private\Widgets\Colors;E:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private\Widgets\Testing;E:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private\Widgets\Workflow;E:\Games\UE_4.20\Engine\Source\Runtime\Apple\AudioMixerAudioUnit\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Apple\MetalRHI\Private;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\GenericPlatform;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\HTML5;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\IOS;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Linux;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Lumin;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Mac;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Unix;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\AssetRegistry\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Private\Components;E:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Private\DSP;E:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Private\Effects;E:\Games\UE_4.20\Engine\Source\Runtime\AudioPlatformConfiguration\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AugmentedReality\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AutomationMessages\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AutomationWorker\Private;E:\Games\UE_4.20\Engine\Source\Runtime\AVIWriter\Private;E:\Games\UE_4.20\Engine\Source\Runtime\BlueprintRuntime\Private;E:\Games\UE_4.20\Engine\Source\Runtime\BuildSettings\Private;E:\Games\UE_4.20\Engine\Source\Runtime\CEF3Utils\Private;E:\Games\UE_4.20\Engine\Source\Runtime\CEF3Utils\Private\Mac;E:\Games\UE_4.20\Engine\Source\Runtime\CinematicCamera\Private;E:\Games\UE_4.20\Engine\Source\Runtime\ClientPilot\Private;E:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntime\Private;E:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntime\Private\Assets;E:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntime\Private\Utils;E:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Private;E:\Games\UE_4.20\Engine\Source\Runtime\CookedIterativeFile\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Apple;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Async;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Containers;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Delegates;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Features;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\FramePro;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\GenericPlatform;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\HAL;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Hash;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\HTML5;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Internationalization;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\IOS;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Linux;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Logging;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Lumin;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Mac;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Math;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Misc;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Modules;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\ProfilingDebugging;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Serialization;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Stats;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Unix;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\UObject;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Containers\Algo;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\HAL\Allocators;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\ProfilingDebugging\Apple;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\ProfilingDebugging\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Serialization\Csv;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Serialization\Formatters;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\Async;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\HAL;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\Internationalization;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\Math;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\Misc;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Blueprint;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Internationalization;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Misc;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Serialization;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Templates;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\UObject;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Serialization\Formatters;E:\Games\UE_4.20\Engine\Source\Runtime\D3D12RHI\Private;E:\Games\UE_4.20\Engine\Source\Runtime\D3D12RHI\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\DatabaseSupport\Private;E:\Games\UE_4.20\Engine\Source\Runtime\EmptyRHI\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\AI;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Animation;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Atmosphere;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Camera;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Collision;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Commandlets;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Components;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Curves;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Debug;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\DeviceProfiles;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\EdGraph;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\EditorFramework;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Engine;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\GameFramework;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Internationalization;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Kismet;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Layers;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Materials;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\MeshVertexPainter;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\PacketHandlers;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Particles;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Performance;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\PhysicsEngine;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\ProfilingDebugging;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Rendering;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\ShaderCompiler;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Slate;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Streaming;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\UserInterface;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Vehicles;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\VisualLogger;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\AI\Navigation;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\GameFramework\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Tests\Internationalization;E:\Games\UE_4.20\Engine\Source\Runtime\EngineMessages\Private;E:\Games\UE_4.20\Engine\Source\Runtime\EngineSettings\Private;E:\Games\UE_4.20\Engine\Source\Runtime\EyeTracker\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Foliage\Private;E:\Games\UE_4.20\Engine\Source\Runtime\FriendsAndChat\Private;E:\Games\UE_4.20\Engine\Source\Runtime\GameMenuBuilder\Private;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags\Private;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags\Private\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks\Private;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks\Private\Tasks;E:\Games\UE_4.20\Engine\Source\Runtime\HardwareSurvey\Private;E:\Games\UE_4.20\Engine\Source\Runtime\HeadMountedDisplay\Private;E:\Games\UE_4.20\Engine\Source\Runtime\HTML5\HTML5JS\Private;E:\Games\UE_4.20\Engine\Source\Runtime\HTML5\HTML5PlatformFeatures\Private;E:\Games\UE_4.20\Engine\Source\Runtime\HTML5\MapPakDownloader\Private;E:\Games\UE_4.20\Engine\Source\Runtime\ImageCore\Private;E:\Games\UE_4.20\Engine\Source\Runtime\ImageWrapper\Private;E:\Games\UE_4.20\Engine\Source\Runtime\ImageWrapper\Private\Formats;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\GenericPlatform;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\HTML5;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\IOS;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Linux;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Lumin;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Mac;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\InputDevice\Private;E:\Games\UE_4.20\Engine\Source\Runtime\IOS\IOSAudio\Private;E:\Games\UE_4.20\Engine\Source\Runtime\IOS\IOSLocalNotification\Private;E:\Games\UE_4.20\Engine\Source\Runtime\IOS\IOSRuntimeSettings\Private;E:\Games\UE_4.20\Engine\Source\Runtime\IOS\LaunchDaemonMessages\Private;E:\Games\UE_4.20\Engine\Source\Runtime\IPC\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Json\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Json\Private\Dom;E:\Games\UE_4.20\Engine\Source\Runtime\Json\Private\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\JsonUtilities\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Landscape\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Landscape\Private\Materials;E:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\HTML5;E:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\IOS;E:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Lumin;E:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Mac;E:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Unix;E:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\LevelSequence\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Linux\AudioMixerSDL\Private;E:\Games\UE_4.20\Engine\Source\Runtime\LiveLinkInterface\Private;E:\Games\UE_4.20\Engine\Source\Runtime\LiveLinkMessageBusFramework\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Lumin\LuminRuntimeSettings\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Mac\CoreAudio\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Mac\UnrealAudioCoreAudio\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MaterialShaderQualitySettings\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Media\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MediaAssets\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MediaAssets\Private\Assets;E:\Games\UE_4.20\Engine\Source\Runtime\MediaAssets\Private\Misc;E:\Games\UE_4.20\Engine\Source\Runtime\MediaAssets\Private\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\MediaIOCore\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MediaIOCore\Private\Player;E:\Games\UE_4.20\Engine\Source\Runtime\MediaIOCore\Private\Shared;E:\Games\UE_4.20\Engine\Source\Runtime\MediaUtils\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MediaUtils\Public;E:\Games\UE_4.20\Engine\Source\Runtime\MeshDescription\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Messaging\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Messaging\Private\Bridge;E:\Games\UE_4.20\Engine\Source\Runtime\Messaging\Private\Bus;E:\Games\UE_4.20\Engine\Source\Runtime\MessagingCommon\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MessagingRpc\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MoviePlayer\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Channels;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Compilation;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Evaluation;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Generators;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Sections;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Tracks;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Evaluation\Blending;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneCapture\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Private\Evaluation;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Private\Sections;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Private\Tracks;E:\Games\UE_4.20\Engine\Source\Runtime\MRMesh\Private;E:\Games\UE_4.20\Engine\Source\Runtime\MRMesh\Public;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private\NavAreas;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private\NavFilters;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private\NavGraph;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private\NavMesh;E:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\DebugUtils;E:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\Detour;E:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\DetourCrowd;E:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\DetourTileCache;E:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\Recast;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkFile\Private;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkFileSystem\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Networking\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Networking\Private\IPv4;E:\Games\UE_4.20\Engine\Source\Runtime\Networking\Private\Steam;E:\Games\UE_4.20\Engine\Source\Runtime\Networking\Private\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\HttpNetworkReplayStreaming\Private;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\InMemoryNetworkReplayStreaming\Private;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\LocalFileNetworkReplayStreaming\Private;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Private;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NullNetworkReplayStreaming\Private;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\SaveGameNetworkReplayStreaming\Private;E:\Games\UE_4.20\Engine\Source\Runtime\NullDrv\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Common;E:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Core;E:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Data;E:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Generation;E:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Installer;E:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Tests\Unit;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Apple;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Curl;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\GenericPlatform;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\HTML5;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Unix;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Online\ICMP\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\ICMP\Private\IOS;E:\Games\UE_4.20\Engine\Source\Runtime\Online\ICMP\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Online\ImageDownload\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\SSL\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\Stomp\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private\Linux;E:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private\Mac;E:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Online\WebSockets\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\WebSockets\Private\Lws;E:\Games\UE_4.20\Engine\Source\Runtime\Online\XMPP\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Online\XMPP\Private\XmppJingle;E:\Games\UE_4.20\Engine\Source\Runtime\Online\XMPP\Private\XmppStrophe;E:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private;E:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\HTML5;E:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\IOS;E:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\Linux;E:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\Lumin;E:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Overlay\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Overlay\Private\Assets;E:\Games\UE_4.20\Engine\Source\Runtime\Overlay\Private\Factories;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\AsymmetricEncryption\RSAEncryptionHandlerComponent\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\EncryptionHandlerComponent\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\RSAKeyAESEncryption\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\AESBlockEncryptor\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlockEncryptionHandlerComponent\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlowFishBlockEncryptor\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\TwoFishBlockEncryptor\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\XORBlockEncryptor\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\StreamEncryptionHandlerComponent\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\XORStreamEncryptor\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\PacketHandler\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PakFile\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PerfCounters\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PhysXCooking\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherCheck\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherPlatform\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherPlatform\Private\Linux;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherPlatform\Private\Mac;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherPlatform\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\Messages\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\Proxies\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\Proxies\Private\Account;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\Proxies\Private\Application;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\Rpc\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Portal\Services\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Projects\Private;E:\Games\UE_4.20\Engine\Source\Runtime\PropertyPath\Private;E:\Games\UE_4.20\Engine\Source\Runtime\RenderCore\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Private\CompositionLighting;E:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Private\PostProcess;E:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Private\VT;E:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private;E:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\Apple;E:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\HTML5;E:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\Linux;E:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\RuntimeAssetCache\Private;E:\Games\UE_4.20\Engine\Source\Runtime\SandboxFile\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Serialization\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Serialization\Private\Backends;E:\Games\UE_4.20\Engine\Source\Runtime\Serialization\Private\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\SessionMessages\Private;E:\Games\UE_4.20\Engine\Source\Runtime\SessionServices\Private;E:\Games\UE_4.20\Engine\Source\Runtime\ShaderCore\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Application;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Commands;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Docking;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Layout;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\MetaData;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\MultiBox;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Notifications;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Styling;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Text;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\MultiBox\Mac;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Text\Android;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Text\IOS;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Colors;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Docking;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Images;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Input;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\LayerManager;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Layout;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Notifications;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Text;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Views;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Animation;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Application;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Brushes;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Fonts;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Input;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Layout;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Logging;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Rendering;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Sound;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Stats;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Styling;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Textures;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Types;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Runtime\SlateNullRenderer\Private;E:\Games\UE_4.20\Engine\Source\Runtime\SlateRHIRenderer\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\BSDIPv6Sockets;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\BSDSockets;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\IOS;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\Mac;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\Unix;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\HTML5\Device;E:\Games\UE_4.20\Engine\Source\Runtime\StreamingFile\Private;E:\Games\UE_4.20\Engine\Source\Runtime\StreamingPauseRendering\Private;E:\Games\UE_4.20\Engine\Source\Runtime\SynthBenchmark\Private;E:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement\Private;E:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement\Private\Widgets;E:\Games\UE_4.20\Engine\Source\Runtime\Toolbox\Private;E:\Games\UE_4.20\Engine\Source\Runtime\UE4Game\Private;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Animation;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Binding;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Blueprint;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Components;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Slate;E:\Games\UE_4.20\Engine\Source\Runtime\Unix\UnixCommonStartup\Private;E:\Games\UE_4.20\Engine\Source\Runtime\UnrealAudio\Private;E:\Games\UE_4.20\Engine\Source\Runtime\UnrealAudio\Private\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\UtilityShaders\Private;E:\Games\UE_4.20\Engine\Source\Runtime\VectorVM\Private;E:\Games\UE_4.20\Engine\Source\Runtime\VectorVM\Private\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private;E:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private\Linux;E:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private\Lumin;E:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\WebBrowser\Private;E:\Games\UE_4.20\Engine\Source\Runtime\WebBrowser\Private\Android;E:\Games\UE_4.20\Engine\Source\Runtime\WebBrowser\Private\CEF;E:\Games\UE_4.20\Engine\Source\Runtime\WebBrowser\Private\IOS;E:\Games\UE_4.20\Engine\Source\Runtime\WebBrowserTexture\Private;E:\Games\UE_4.20\Engine\Source\Runtime\WidgetCarousel\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Windows\AudioMixerXAudio2\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Windows\D3D11RHI\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Windows\D3D11RHI\Private\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Windows\UnrealAudioWasapi\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Windows\UnrealAudioXAudio2\Private;E:\Games\UE_4.20\Engine\Source\Runtime\Windows\XAudio2\Private;E:\Games\UE_4.20\Engine\Source\Runtime\XmlParser\Private;E:\Games\UE_4.20\Engine\Source\ThirdParty\libJPG;E:\Games\UE_4.20\Engine\Source\ThirdParty\Android\detex;</SourcePath>
+	</PropertyGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=0;UE_EDITOR=1;ENABLE_PGO_PROFILE=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=1;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=0;WITH_EDITOR=1;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=1;UBT_MODULE_MANIFEST="UE4Editor.modules";UBT_MODULE_MANIFEST_DEBUGGAME="UE4Editor-Win64-DebugGame.modules";UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Editor;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="MordhauEditor.exe";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UE_PROJECT_NAME=Mordhau;IMPLEMENT_ENCRYPTION_KEY_REGISTRATION()=;IMPLEMENT_SIGNING_KEY_REGISTRATION()=;DEPRECATED_FORGAME=DEPRECATED;COREUOBJECT_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;WITH_MALLOC_STOMP=1;CORE_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_APEX_CLOTHING=1;WITH_CLOTH_COLLISION_DETECTION=1;WITH_PHYSX_COOKING=1;WITH_NVCLOTH=1;GPUPARTICLE_LOCAL_VF_ONLY=0;ENGINE_API=;APPLICATIONCORE_API=;RHI_API=;JSON_API=;SLATE_PARENT_POINTERS=1;WITH_FREETYPE=1;SLATECORE_API=;INPUTCORE_API=;SLATE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;MESSAGING_API=;MESSAGINGCOMMON_API=;RENDERCORE_API=;SHADERCORE_API=;UTILITYSHADERS_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;GAMEPLAYTAGS_API=;DATABASESUPPORT_API=;PACKETHANDLER_API=;RELIABILITYHANDLERCOMPONENT_API=;AUDIOPLATFORMCONFIGURATION_API=;MESHDESCRIPTION_API=;WITH_RECAST=1;UNREALED_API=;BSPMODE_API=;DIRECTORYWATCHER_API=;DOCUMENTATION_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=1;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCE_CONTROL_WITH_SLATE=1;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;GAMEPLAYDEBUGGER_API=;BLUEPRINTGRAPH_API=;HTTP_PACKAGE=1;CURL_ENABLE_DEBUG_CALLBACK=1;CURL_ENABLE_NO_TIMEOUTS_OPTION=1;HTTP_API=;UNREALAUDIO_API=;FUNCTIONALTESTING_API=;AUTOMATIONCONTROLLER_API=;LOCALIZATION_API=;AUDIOEDITOR_API=;LEVELEDITOR_API=;SETTINGS_API=;INTROTUTORIALS_API=;HEADMOUNTEDDISPLAY_API=;VREDITOR_API=;COMMONMENUEXTENSIONS_API=;LANDSCAPE_API=;PROPERTYEDITOR_API=;ACTORPICKERMODE_API=;SCENEDEPTHPICKERMODE_API=;DETAILCUSTOMIZATIONS_API=;CLASSVIEWER_API=;GRAPHEDITOR_API=;CONTENTBROWSER_API=;ENABLE_HTTP_FOR_NFS=1;NETWORKFILESYSTEM_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;UMG_API=;MOVIESCENE_API=;TIMEMANAGEMENT_API=;MOVIESCENETRACKS_API=;ANIMATIONCORE_API=;PROPERTYPATH_API=;NAVIGATIONSYSTEM_API=;MESHBUILDER_API=;WITH_OGGVORBIS=1;XAUDIO2_API=;AUDIOMIXERXAUDIO2_API=;COLLECTIONMANAGER_API=;ADDCONTENTDIALOG_API=;USE_EMBREE=1;MESHUTILITIES_API=;MESHMERGEUTILITIES_API=;HIERARCHICALLODUTILITIES_API=;MESHREDUCTIONINTERFACE_API=;ASSETTOOLS_API=;KISMETCOMPILER_API=;GAMEPLAYTASKS_API=;WITH_GAMEPLAY_DEBUGGER=1;AIMODULE_API=;KISMET_API=;CLOTHINGSYSTEMRUNTIMEINTERFACE_API=;NETWORKREPLAYSTREAMING_API=;AUDIOMIXER_API=;UELIBSAMPLERATE_API=;MORDHAUONLINESUBSYSTEM_API=;ONLINESUBSYSTEMUTILS_PACKAGE=1;ONLINESUBSYSTEMUTILS_API=;ONLINESUBSYSTEM_PACKAGE=1;DEBUG_LAN_BEACON=0;ONLINESUBSYSTEM_API=;MORDHAU_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);E:\Games\UE_4.20\Engine\Source;..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Private;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;E:\Games\UE_4.20\Engine\Source\Runtime;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Blueprint;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Internationalization;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Misc;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Serialization;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Serialization\Formatters;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates;E:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\UObject;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Core;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Core;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Algo;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Algo\Impl;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Async;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Clang;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Delegates;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Features;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\FramePro;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\GenericPlatform;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\HAL;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\HAL\Allocators;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Hash;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Internationalization;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Logging;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Math;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Misc;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Modules;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\ProfilingDebugging;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Serialization;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Serialization\Csv;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Serialization\Formatters;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Stats;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Templates;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Traits;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\UObject;E:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Windows;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Classes;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Engine;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\AI;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\AI\Navigation;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Animation;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Curves;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\EdGraph;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Internationalization;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Net;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\PacketHandlers;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Performance;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Physics;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\ProfilingDebugging;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Rendering;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Slate;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Tests;E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\VisualLogger;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Public;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Public\HAL;E:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Public\Windows;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;E:\Games\UE_4.20\Engine\Source\Runtime\RHI\Public;E:\Games\UE_4.20\Engine\Source\Runtime\RHI;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;E:\Games\UE_4.20\Engine\Source\Runtime\Json\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Json;E:\Games\UE_4.20\Engine\Source\Runtime\Json\Public\Dom;E:\Games\UE_4.20\Engine\Source\Runtime\Json\Public\Policies;E:\Games\UE_4.20\Engine\Source\Runtime\Json\Public\Serialization;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Animation;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Application;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Brushes;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Fonts;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Input;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Layout;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Logging;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Rendering;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Sound;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Stats;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Styling;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Textures;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Types;E:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Widgets;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Classes;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Public;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Public\GenericPlatform;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Public\HAL;E:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Public\Windows;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Slate;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Application;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Commands;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Docking;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Layout;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\MetaData;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Notifications;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Styling;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Text;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Views;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Colors;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Docking;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Images;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Input;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Layout;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Text;E:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Views;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;E:\Games\UE_4.20\Engine\Source\Runtime\ImageWrapper\Public;E:\Games\UE_4.20\Engine\Source\Runtime\ImageWrapper;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;E:\Games\UE_4.20\Engine\Source\Runtime\Messaging\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Messaging;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;E:\Games\UE_4.20\Engine\Source\Runtime\MessagingCommon\Public;E:\Games\UE_4.20\Engine\Source\Runtime\MessagingCommon;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;E:\Games\UE_4.20\Engine\Source\Runtime\RenderCore\Public;E:\Games\UE_4.20\Engine\Source\Runtime\RenderCore;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ShaderCore;E:\Games\UE_4.20\Engine\Source\Runtime\ShaderCore\Public;E:\Games\UE_4.20\Engine\Source\Runtime\ShaderCore;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UtilityShaders;E:\Games\UE_4.20\Engine\Source\Runtime\UtilityShaders\Public;E:\Games\UE_4.20\Engine\Source\Runtime\UtilityShaders;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;E:\Games\UE_4.20\Engine\Source\Runtime\AssetRegistry\Public;E:\Games\UE_4.20\Engine\Source\Runtime\AssetRegistry;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;E:\Games\UE_4.20\Engine\Source\Runtime\EngineMessages\Public;E:\Games\UE_4.20\Engine\Source\Runtime\EngineMessages;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;E:\Games\UE_4.20\Engine\Source\Runtime\EngineSettings\Classes;E:\Games\UE_4.20\Engine\Source\Runtime\EngineSettings\Public;E:\Games\UE_4.20\Engine\Source\Runtime\EngineSettings;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;E:\Games\UE_4.20\Engine\Source\Runtime\SynthBenchmark\Public;E:\Games\UE_4.20\Engine\Source\Runtime\SynthBenchmark;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;E:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Renderer;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags\Classes;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags\Public;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DatabaseSupport;E:\Games\UE_4.20\Engine\Source\Runtime\DatabaseSupport\Public;E:\Games\UE_4.20\Engine\Source\Runtime\DatabaseSupport;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\PacketHandler;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;E:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration;E:\Games\UE_4.20\Engine\Source\Runtime\AudioPlatformConfiguration\Public;E:\Games\UE_4.20\Engine\Source\Runtime\AudioPlatformConfiguration;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription;E:\Games\UE_4.20\Engine\Source\Runtime\MeshDescription\Public;E:\Games\UE_4.20\Engine\Source\Runtime\MeshDescription;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;E:\Games\UE_4.20\Engine\Source\Editor;E:\Games\UE_4.20\Engine\Source\Programs\UnrealLightmass\Public;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Classes;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\AutoReimport;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Commandlets;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Dialogs;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Features;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Kismet2;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Layers;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Settings;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Tests;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Toolkits;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;E:\Games\UE_4.20\Engine\Source\Editor\BspMode\Public;E:\Games\UE_4.20\Engine\Source\Editor\BspMode;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;E:\Games\UE_4.20\Engine\Source\Developer;E:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Public;E:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;E:\Games\UE_4.20\Engine\Source\Editor\Documentation\Public;E:\Games\UE_4.20\Engine\Source\Editor\Documentation;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;E:\Games\UE_4.20\Engine\Source\Runtime\Projects\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Projects;E:\Games\UE_4.20\Engine\Source\Runtime\Projects\Public\Interfaces;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;E:\Games\UE_4.20\Engine\Source\Runtime\SandboxFile\Public;E:\Games\UE_4.20\Engine\Source\Runtime\SandboxFile;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;E:\Games\UE_4.20\Engine\Source\Editor\EditorStyle\Public;E:\Games\UE_4.20\Engine\Source\Editor\EditorStyle;E:\Games\UE_4.20\Engine\Source\Editor\EditorStyle\Public\Classes;E:\Games\UE_4.20\Engine\Source\Editor\EditorStyle\Public\Interfaces;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;E:\Games\UE_4.20\Engine\Source\Developer\SourceControl\Public;E:\Games\UE_4.20\Engine\Source\Developer\SourceControl;E:\Games\UE_4.20\Engine\Source\Developer\SourceControl\Public\Tests;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEdMessages\Classes;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEdMessages\Public;E:\Games\UE_4.20\Engine\Source\Editor\UnrealEdMessages;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;E:\Games\UE_4.20\Engine\Source\Developer\GameplayDebugger\Public;E:\Games\UE_4.20\Engine\Source\Developer\GameplayDebugger;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;E:\Games\UE_4.20\Engine\Source\Editor\BlueprintGraph\Classes;E:\Games\UE_4.20\Engine\Source\Editor\BlueprintGraph\Public;E:\Games\UE_4.20\Engine\Source\Editor\BlueprintGraph;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;E:\Games\UE_4.20\Engine\Source\Runtime\Online;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;E:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Public\Windows;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;E:\Games\UE_4.20\Engine\Source\Runtime\UnrealAudio\Public;E:\Games\UE_4.20\Engine\Source\Runtime\UnrealAudio;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;E:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting\Classes;E:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting\Public;E:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;E:\Games\UE_4.20\Engine\Source\Developer\AutomationController\Public;E:\Games\UE_4.20\Engine\Source\Developer\AutomationController;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;E:\Games\UE_4.20\Engine\Source\Developer\Localization\Public;E:\Games\UE_4.20\Engine\Source\Developer\Localization;E:\Games\UE_4.20\Engine\Source\Developer\Localization\Public\Serialization;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;E:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Classes;E:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Public;E:\Games\UE_4.20\Engine\Source\Editor\AudioEditor;E:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Public\AssetTypeActions;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;E:\Games\UE_4.20\Engine\Source\Editor\LevelEditor\Public;E:\Games\UE_4.20\Engine\Source\Editor\LevelEditor;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;E:\Games\UE_4.20\Engine\Source\Developer\Settings\Public;E:\Games\UE_4.20\Engine\Source\Developer\Settings;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;E:\Games\UE_4.20\Engine\Source\Editor\IntroTutorials\Public;E:\Games\UE_4.20\Engine\Source\Editor\IntroTutorials;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;E:\Games\UE_4.20\Engine\Source\Runtime\HeadMountedDisplay\Public;E:\Games\UE_4.20\Engine\Source\Runtime\HeadMountedDisplay;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;E:\Games\UE_4.20\Engine\Source\Editor\VREditor;E:\Games\UE_4.20\Engine\Source\Editor\VREditor\Public;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CommonMenuExtensions;E:\Games\UE_4.20\Engine\Source\Editor\CommonMenuExtensions\Public;E:\Games\UE_4.20\Engine\Source\Editor\CommonMenuExtensions;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;E:\Games\UE_4.20\Engine\Source\Runtime\Landscape\Classes;E:\Games\UE_4.20\Engine\Source\Runtime\Landscape\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Landscape;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;E:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Public;E:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;E:\Games\UE_4.20\Engine\Source\Editor\ActorPickerMode\Public;E:\Games\UE_4.20\Engine\Source\Editor\ActorPickerMode;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;E:\Games\UE_4.20\Engine\Source\Editor\SceneDepthPickerMode\Public;E:\Games\UE_4.20\Engine\Source\Editor\SceneDepthPickerMode;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;E:\Games\UE_4.20\Engine\Source\Editor\DetailCustomizations\Public;E:\Games\UE_4.20\Engine\Source\Editor\DetailCustomizations;E:\Games\UE_4.20\Engine\Source\Editor\DetailCustomizations\Public\Customizations;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;E:\Games\UE_4.20\Engine\Source\Editor\ClassViewer\Public;E:\Games\UE_4.20\Engine\Source\Editor\ClassViewer;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Public;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Public\KismetNodes;E:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Public\KismetPins;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;E:\Games\UE_4.20\Engine\Source\Editor\ContentBrowser\Public;E:\Games\UE_4.20\Engine\Source\Editor\ContentBrowser;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkFileSystem\Public;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkFileSystem;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Sockets;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public;E:\Games\UE_4.20\Engine\Source\Runtime\UMG;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Animation;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Binding;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Blueprint;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Components;E:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Slate;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Channels;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Compilation;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Evaluation;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Generators;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Sections;E:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Tracks;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement;E:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement\Public;E:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement;E:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement\Public\Widgets;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Public;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Public\Sections;E:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore;E:\Games\UE_4.20\Engine\Source\Runtime\AnimationCore\Public;E:\Games\UE_4.20\Engine\Source\Runtime\AnimationCore;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath;E:\Games\UE_4.20\Engine\Source\Runtime\PropertyPath\Public;E:\Games\UE_4.20\Engine\Source\Runtime\PropertyPath;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public\NavAreas;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public\NavFilters;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public\NavGraph;E:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public\NavMesh;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshBuilder;E:\Games\UE_4.20\Engine\Source\Developer\MeshBuilder\Public;E:\Games\UE_4.20\Engine\Source\Developer\MeshBuilder;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;E:\Games\UE_4.20\Engine\Source\Runtime\Windows;E:\Games\UE_4.20\Engine\Source\Runtime\Windows\XAudio2\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Windows\XAudio2;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;E:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Public;E:\Games\UE_4.20\Engine\Source\Runtime\Windows\AudioMixerXAudio2;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;E:\Games\UE_4.20\Engine\Source\Developer\CollectionManager\Public;E:\Games\UE_4.20\Engine\Source\Developer\CollectionManager;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;E:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog\Public;E:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;E:\Games\UE_4.20\Engine\Source\ThirdParty\IntelEmbree\Embree2140\Win64\include;E:\Games\UE_4.20\Engine\Source\Developer\MeshUtilities\Public;E:\Games\UE_4.20\Engine\Source\Developer\MeshUtilities;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;E:\Games\UE_4.20\Engine\Source\Developer\MeshMergeUtilities\Public;E:\Games\UE_4.20\Engine\Source\Developer\MeshMergeUtilities;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;E:\Games\UE_4.20\Engine\Source\Developer\HierarchicalLODUtilities\Public;E:\Games\UE_4.20\Engine\Source\Developer\HierarchicalLODUtilities;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;E:\Games\UE_4.20\Engine\Source\Developer\MeshReductionInterface\Public;E:\Games\UE_4.20\Engine\Source\Developer\MeshReductionInterface;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;E:\Games\UE_4.20\Engine\Source\Developer\AssetTools\Public;E:\Games\UE_4.20\Engine\Source\Developer\AssetTools;E:\Games\UE_4.20\Engine\Source\Developer\AssetTools\Public\AssetTypeActions;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;E:\Games\UE_4.20\Engine\Source\Editor\KismetCompiler\Public;E:\Games\UE_4.20\Engine\Source\Editor\KismetCompiler;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks\Classes;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks\Public;E:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Public;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Classes;E:\Games\UE_4.20\Engine\Source\Runtime\AIModule;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;E:\Games\UE_4.20\Engine\Source\Editor\Kismet\Classes;E:\Games\UE_4.20\Engine\Source\Editor\Kismet\Public;E:\Games\UE_4.20\Engine\Source\Editor\Kismet;E:\Games\UE_4.20\Engine\Source\Editor\Kismet\Public\Nodes;E:\Games\UE_4.20\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;E:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;E:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntimeInterface;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;E:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;E:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Classes;E:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer;E:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Public\Components;E:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Public\DSP;E:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UELibSampleRate;E:\Games\UE_4.20\Engine\Source\ThirdParty;E:\Games\UE_4.20\Engine\Source\ThirdParty\libSampleRate\Public;E:\Games\UE_4.20\Engine\Source\ThirdParty\libSampleRate;..\..\Plugins\MordhauOnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Inc\MordhauOnlineSubsystem;..\..\Plugins\MordhauOnlineSubsystem\Source;..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Public;..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystemUtils;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystemUtils\Source;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Public;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystem;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystem;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystem\Source;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystem\Source\Public;E:\Games\UE_4.20\Engine\Plugins\Online\OnlineSubsystem\Source\Public\Interfaces;..\Build\Win64\UE4Editor\Inc\Mordhau;..\..\Source;..\..\Source\Mordhau;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

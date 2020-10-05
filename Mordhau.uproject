@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.20",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Mordhau",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG",
+				"AIModule",
+				"CoreUObject",
+				"Engine",
+				"OnlineSubsystemUtils"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
+		},
+		{
+			"Name": "WebBrowserWidget",
+			"Enabled": true
+		}
+	]
+}

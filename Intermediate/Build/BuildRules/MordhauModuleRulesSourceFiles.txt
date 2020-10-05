@@ -1,0 +1,4 @@
+D:\Mordhau\finalcopy\Mordhau\Source\Mordhau\Mordhau.Build.cs
+D:\Mordhau\finalcopy\Mordhau\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\MordhauOnlineSubsystem.Build.cs
+D:\Mordhau\finalcopy\Mordhau\Source\Mordhau.Target.cs
+D:\Mordhau\finalcopy\Mordhau\Source\MordhauEditor.Target.cs

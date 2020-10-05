@@ -1,0 +1,41 @@
+﻿  Creating makefile for MordhauEditor (game project files are newer)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for MordhauEditor
+    Running UnrealHeaderTool "D:\Mordhau\finalcopy\Mordhau\Mordhau.uproject" "D:\Mordhau\finalcopy\Mordhau\Intermediate\Build\Win64\MordhauEditor\Development\MordhauEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MordhauEditor in 13.3754675 seconds
+  Building 27 actions with 8 processes...
+    [1/27] PCLaunch.rc
+    [2/27] PCLaunch.rc
+    [3/27] SharedPCH.Engine.cpp
+    [4/27] Module.MordhauOnlineSubsystem.gen.cpp
+    [5/27] Module.Mordhau.gen.11_of_17.cpp
+    [6/27] Module.Mordhau.gen.15_of_17.cpp
+    [7/27] Module.Mordhau.gen.13_of_17.cpp
+    [8/27] Module.Mordhau.gen.17_of_17.cpp
+    [9/27] Module.Mordhau.gen.14_of_17.cpp
+    [10/27] Module.Mordhau.gen.7_of_17.cpp
+    [11/27] Module.Mordhau.gen.12_of_17.cpp
+    [12/27] Module.Mordhau.gen.3_of_17.cpp
+    [13/27] Module.Mordhau.gen.10_of_17.cpp
+    [14/27] Module.Mordhau.gen.9_of_17.cpp
+    [15/27] Module.Mordhau.gen.16_of_17.cpp
+    [16/27] Module.MordhauOnlineSubsystem.cpp
+    [17/27] Module.Mordhau.gen.1_of_17.cpp
+    [18/27] UE4Editor-MordhauOnlineSubsystem.lib
+       Creating library D:\Mordhau\finalcopy\Mordhau\Plugins\MordhauOnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Development\MordhauOnlineSubsystem\UE4Editor-MordhauOnlineSubsystem.lib and object D:\Mordhau\finalcopy\Mordhau\Plugins\MordhauOnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Development\MordhauOnlineSubsystem\UE4Editor-MordhauOnlineSubsystem.exp
+    [19/27] UE4Editor-MordhauOnlineSubsystem.dll
+       Creating library D:\Mordhau\finalcopy\Mordhau\Plugins\MordhauOnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Development\MordhauOnlineSubsystem\UE4Editor-MordhauOnlineSubsystem.suppressed.lib and object D:\Mordhau\finalcopy\Mordhau\Plugins\MordhauOnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Development\MordhauOnlineSubsystem\UE4Editor-MordhauOnlineSubsystem.suppressed.exp
+    [20/27] Module.Mordhau.gen.8_of_17.cpp
+    [21/27] Module.Mordhau.gen.6_of_17.cpp
+    [22/27] Module.Mordhau.gen.4_of_17.cpp
+    [23/27] Module.Mordhau.gen.5_of_17.cpp
+    [24/27] Module.Mordhau.gen.2_of_17.cpp
+    [25/27] Module.Mordhau.cpp
+D:\Mordhau\finalcopy\Mordhau\Source\Mordhau\MordhauEquipment.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    E:\Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+    [26/27] UE4Editor-Mordhau.lib
+       Creating library D:\Mordhau\finalcopy\Mordhau\Intermediate\Build\Win64\UE4Editor\Development\Mordhau\UE4Editor-Mordhau.lib and object D:\Mordhau\finalcopy\Mordhau\Intermediate\Build\Win64\UE4Editor\Development\Mordhau\UE4Editor-Mordhau.exp
+    [27/27] UE4Editor-Mordhau.dll
+       Creating library D:\Mordhau\finalcopy\Mordhau\Intermediate\Build\Win64\UE4Editor\Development\Mordhau\UE4Editor-Mordhau.suppressed.lib and object D:\Mordhau\finalcopy\Mordhau\Intermediate\Build\Win64\UE4Editor\Development\Mordhau\UE4Editor-Mordhau.suppressed.exp
+  Deploying MordhauEditor Win64 Development...
+  Total build time: 139.68 seconds (Parallel executor: 82.83 seconds)

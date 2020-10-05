@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Mordhau.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{690E49CF-B4D0-41E8-93B3-79F62603A743}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Mordhau.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MordhauEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{04DC786D-3A9B-4810-9E40-635B566A9607}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{C6AD109D-00EA-4CF0-84A8-35B4062C0F80}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\MordhauOnlineSubsystem">
+			<UniqueIdentifier>{6FCC56C0-C0D6-456C-9103-4053FF1AC4F3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\MordhauOnlineSubsystem\Source">
+			<UniqueIdentifier>{14D5E088-A7CB-4917-AEE8-75602231553E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem">
+			<UniqueIdentifier>{ACD91127-8959-4397-BC75-9CC37AFBFA05}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\MordhauOnlineSubsystem.Build.cs">
+			<Filter>Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem</Filter>
+		</None >
+		<Filter Include="Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Private">
+			<UniqueIdentifier>{9C3A7CA9-8D5D-439A-A940-92F95943F1DF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Private\DummyActor.cpp">
+			<Filter>Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Private\MordhauOnlineSubsystem.cpp">
+			<Filter>Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Public">
+			<UniqueIdentifier>{E5991215-4C75-4626-ADEF-072ABA685A57}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Public\DummyActor.h">
+			<Filter>Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Public\MordhauOnlineSubsystem.h">
+			<Filter>Plugins\MordhauOnlineSubsystem\Source\MordhauOnlineSubsystem\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\MordhauOnlineSubsystem\MordhauOnlineSubsystem.uplugin">
+			<Filter>Plugins\MordhauOnlineSubsystem</Filter>
+		</None >
+		<Filter Include="Plugins\MordhauOnlineSubsystem\Resources">
+			<UniqueIdentifier>{F61B8AE4-1B29-4008-8453-3C5AD7045EB1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\MordhauOnlineSubsystem\Resources\Icon128.png">
+			<Filter>Plugins\MordhauOnlineSubsystem\Resources</Filter>
+		</None >
+		<Filter Include="Source\Mordhau">
+			<UniqueIdentifier>{70CEC8A1-C3D7-46F7-A3D4-77DD8109098F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Mordhau\AdvancedCharacter.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\AdvancedCharacter.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\AdvancedCharacterAnimInstance.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\AdvancedCharacterAnimInstance.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\AdvancedCharacterMovement.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\AdvancedCharacterMovement.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\AdvProjectileMovementComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\AdvProjectileMovementComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\Archetype.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Archetype.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ArmsWearable.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ArmsWearable.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\AttackMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\AttackMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ATurret.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ATurret.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\Badge.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Badge.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\BlockedMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\BlockedMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\BotBehaviorProfile.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\BotBehaviorProfile.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\BotProfile.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\BotProfile.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\CapturePointBanner.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\CapturePointBanner.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\Catapult.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Catapult.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\CharacterFace.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\CharacterFace.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\CharacterHair.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\CharacterHair.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\CharacterProfileBPWrapper.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\CharacterProfileBPWrapper.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\CharacterVoice.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\CharacterVoice.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ClimbingMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ClimbingMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ComboBoxText.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ComboBoxText.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\CompoundVehicleAnimInstance.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\CompoundVehicleAnimInstance.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ControlPoint.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ControlPoint.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\CouchedAttackMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\CouchedAttackMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\CreatureAnimInstance.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\CreatureAnimInstance.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\CustomizationReplicationActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\CustomizationReplicationActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\DisarmedMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\DisarmedMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\DropEquipmentMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\DropEquipmentMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\Emblem.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Emblem.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EmoteCancelMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EmoteCancelMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EmoteMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EmoteMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EmoteSwitcherMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EmoteSwitcherMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EnterVehicleMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EnterVehicleMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EnvironmentMovable.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EnvironmentMovable.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EnvQueryGenerator_Equipment.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EnvQueryGenerator_Equipment.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EnvQueryGenerator_Objectives.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EnvQueryGenerator_Objectives.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EnvQueryTest_Obectives.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EnvQueryTest_Obectives.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EquipmentModeSwitchMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EquipmentModeSwitchMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\EquipmentSwitchMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\EquipmentSwitchMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\FeintedMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\FeintedMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\FieldSpawnComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\FieldSpawnComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\FistsWeapon.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\FistsWeapon.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\FistWeapon.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\FistWeapon.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\FlinchMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\FlinchMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\GameModeMetadata.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\GameModeMetadata.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\GoreActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\GoreActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\HeadWearable.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\HeadWearable.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\HolsterMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\HolsterMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\Horse.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Horse.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\HorseAnimInstance.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\HorseAnimInstance.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\HorseMovementComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\HorseMovementComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\IdleMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\IdleMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\InteractionComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\InteractionComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\InteractMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\InteractMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\InteractWithMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\InteractWithMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ItemPattern.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ItemPattern.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\KickWeapon.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\KickWeapon.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\LateTickComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\LateTickComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\LeaveVehicleMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\LeaveVehicleMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\LegsWearable.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\LegsWearable.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\LODSkeletalMeshComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\LODSkeletalMeshComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\LODStaticMeshActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\LODStaticMeshActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\LODStaticMeshComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\LODStaticMeshComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MapCameraActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MapCameraActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MapMetadata.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MapMetadata.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MasterField.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MasterField.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MeleeWeaponAnimationProfile.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MeleeWeaponAnimationProfile.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Mordhau\Mordhau.Build.cs">
+			<Filter>Source\Mordhau</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Mordhau\Mordhau.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Mordhau.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\Mordhau1DVehicle.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Mordhau1DVehicle.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauAIController.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauAIController.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauAnimInstance.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauAnimInstance.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauAnimMetaData.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauAnimMetaData.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCameraComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCameraComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCameraManager.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCameraManager.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCapsuleComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCapsuleComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCharacter.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCharacter.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauColor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauColor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauCompoundVehicle.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauCompoundVehicle.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauDialog.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauDialog.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauEngineMessage.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauEngineMessage.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauEQSTestingPawn.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauEQSTestingPawn.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauEquipment.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauEquipment.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauEquipmentPart.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauEquipmentPart.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauFunctionLibrary.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameInstance.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameInstance.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameMode.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameMode.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameModeBase.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameModeBase.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameSession.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameSession.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameState.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameState.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauGameUserSettings.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauGameUserSettings.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauHUD.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauHUD.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauInput.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauInput.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauInventory.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauInventory.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauInventoryItem.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauInventoryItem.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauLevelScriptActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauLevelScriptActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauMovementComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauMovementComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauPhysicsCollisionHandler.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauPhysicsCollisionHandler.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauPlayerController.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauPlayerController.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauPlayerStart.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauPlayerStart.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauPlayerState.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauPlayerState.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauProjectile.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauProjectile.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauQuest.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauQuest.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauSceneComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauSceneComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauShield.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauShield.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauSingleton.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauSingleton.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauSpectator.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauSpectator.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauStats.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauStats.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauTypes.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauTypes.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauUserWidget.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauUserWidget.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauUtilityLibrary.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauUtilityLibrary.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauVehicle.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauVehicle.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWeapon.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWeapon.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWearable.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWearable.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWebAPI.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWebAPI.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWheeledVehicle.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWheeledVehicle.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\MordhauWidgetComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\MordhauWidgetComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Mordhau\Mordhau_classes.hpp">
+			<Filter>Source\Mordhau</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Mordhau\OneDimensionalMovementComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\OneDimensionalMovementComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ParryMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ParryMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ParticleSystemActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ParticleSystemActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\Perk.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Perk.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\PhysicsProxy.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\PhysicsProxy.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\PommelThrowDrawMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\PommelThrowDrawMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\PommelThrowReleaseMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\PommelThrowReleaseMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\PreSkinnedPoseOracle.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\PreSkinnedPoseOracle.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ProgressActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ProgressActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ProgressDriver.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ProgressDriver.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\PseudoVehicleMovementComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\PseudoVehicleMovementComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\PushableActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\PushableActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\QuickthrowDrawMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\QuickthrowDrawMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\QuickthrowReleaseMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\QuickthrowReleaseMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\Quiver.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Quiver.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\RagdollFallingMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\RagdollFallingMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\RangedCancelMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\RangedCancelMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\RangedDrawMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\RangedDrawMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\RangedReleaseMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\RangedReleaseMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ReloadMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ReloadMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\SeparatedBodyPart.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\SeparatedBodyPart.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\SeparatedBodyPartAnimInstance.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\SeparatedBodyPartAnimInstance.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\SkeletalMeshCapturePointBanner.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\SkeletalMeshCapturePointBanner.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\SkeletalMeshMordhauActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\SkeletalMeshMordhauActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\SlaveProgressDriver.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\SlaveProgressDriver.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\StaticMeshCapturePointBanner.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\StaticMeshCapturePointBanner.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\StaticMeshMordhauActor.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\StaticMeshMordhauActor.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\StunMotion.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\StunMotion.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\SubField.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\SubField.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\ThudderComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\ThudderComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\Turret.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\Turret.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\UpdateMordhauSession.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\UpdateMordhauSession.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\UpperChestWearable.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\UpperChestWearable.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\VelocityBoxComponent.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\VelocityBoxComponent.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\VirtualWeapon.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\VirtualWeapon.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\WebAPI.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\WebAPI.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Mordhau\WheeledVehicleAnimInstance.cpp">
+			<Filter>Source\Mordhau</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Mordhau\WheeledVehicleAnimInstance.h">
+			<Filter>Source\Mordhau</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
