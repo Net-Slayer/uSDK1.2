@@ -1,0 +1,6 @@
+
+******** I:\Game\Steam\steamapps\common\Mordhau\Mordhau\Content\Mordhau\Assets\Weapons\Placeholders\SkeletalMeshes\SK_Spear_PhysicsAsset.uasset ********
+
+ERROR: Unversioned UE4 packages are not supported. Please restart UModel and select UE4 version in range 14-19 using UI or command line.
+SerializePackageFileSummary4 <- FPackageFileSummary<<:Ver=0/0 <- UnPackage::UnPackage:Mordhau/Assets/Weapons/Placeholders/SkeletalMeshes/SK_Spear_PhysicsAsset.uasset, ver=0/0, game=ue4.0 <- UnPackage::LoadPackage:Mordhau/Assets/Weapons/Placeholders/SkeletalMeshes/SK_Spear_PhysicsAsset.uasset <- Main:umodel_build=695
+
