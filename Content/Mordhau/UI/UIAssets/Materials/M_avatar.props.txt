@@ -1,0 +1,17 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Content/Mordhau/UI/UIAssets/Textures/UI_AvatarMask.UI_AvatarMask'
+    ReferencedTextures[1] = Texture2D'Content/Mordhau/UI/UIAssets/Textures/UI_DefaultAvatar.UI_DefaultAvatar'
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

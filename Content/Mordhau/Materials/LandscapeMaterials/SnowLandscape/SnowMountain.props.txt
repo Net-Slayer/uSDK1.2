@@ -1,0 +1,24 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'Content/ForestCollection/Textures/Detail/TEX_ForestC_Detail_RockA_nrm.TEX_ForestC_Detail_RockA_nrm'
+    ReferencedTextures[1] = Texture2D'Content/Mordhau/Maps/AndrewG_Testing_Map/Andrews_Art_Tests/RockMaterials/DetailRock/rock_plain_01_basecolor.rock_plain_01_basecolor'
+    ReferencedTextures[2] = Texture2D'Content/Mordhau/Materials/LandscapeMaterials/SnowLandscape/FootprintHeightAo.FootprintHeightAo'
+    ReferencedTextures[3] = Texture2D'Content/Mordhau/Materials/LandscapeMaterials/SnowLandscape/FootprintNormal.FootprintNormal'
+    ReferencedTextures[4] = Texture2D'Content/Mordhau/Materials/LandscapeMaterials/SnowLandscape/IceNormal.IceNormal'
+    ReferencedTextures[5] = Texture2D'Content/Mordhau/Materials/LandscapeMaterials/SnowLandscape/IceRoughnessLevel.IceRoughnessLevel'
+    ReferencedTextures[6] = Texture2D'Content/Mordhau/Materials/LandscapeMaterials/SnowLandscape/MountainRocks_Albedo.MountainRocks_Albedo'
+    ReferencedTextures[7] = Texture2D'Content/Mordhau/Materials/LandscapeMaterials/SnowLandscape/MountainRocks_Normal.MountainRocks_Normal'
+    ReferencedTextures[8] = Texture2D'Content/Mordhau/Materials/LandscapeMaterials/SnowLandscape/MountainRocks_RMA.MountainRocks_RMA'
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
