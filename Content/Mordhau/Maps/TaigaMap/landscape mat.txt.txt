@@ -1,0 +1,4 @@
+Landscape material:  M_Taiga_Landscape
+
+Layers order:
+https://i.gyazo.com/65ea47d4d04d02aac01de7a329e18093.png
