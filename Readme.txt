@@ -1,3 +1,5 @@
+We need a more up to date readme...
+
 ----------------------------------MordhauContent----------------------------------
 
 Build: 10
@@ -31,3 +33,4 @@ If a skeleton breaks just delete it and right click the skeletal mesh and click 
 
 Original Dump - Plou
 Build 10 additions + all placeholders - TheMattman
+
