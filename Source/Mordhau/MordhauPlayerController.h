@@ -288,7 +288,7 @@ public:
 
 		void ServerGetServerStats();
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "MordhauControllerEvents")
-		void ServerGetMapVoteMaps();
+		void ServerGetMapVoteMaps(TArray<FString>& OutMapVoteMaps);
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "MordhauControllerEvents")
 		void ServerGetMapVoteCounts();
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "MordhauControllerEvents")

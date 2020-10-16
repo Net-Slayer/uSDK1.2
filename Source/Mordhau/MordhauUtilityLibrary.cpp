@@ -2,14 +2,11 @@
 
 #include "MordhauUtilityLibrary.h"
 
-
 UPROPERTY(BlueprintReadWrite)
 FText placeholder;
 EServerRegion serverReg;
 struct FBox ReturnBox;
 TArray<class AMordhauPlayerState*> ReturnPSArray;
-
-
 
 TArray<class AMordhauPlayerState*> UMordhauUtilityLibrary::SortPlayers(TArray<class AMordhauPlayerState*> Array)
 {
@@ -38,8 +35,9 @@ void UMordhauUtilityLibrary::GetServerSteamID(struct FSteamID& ID)
 {}
 void UMordhauUtilityLibrary::GetPerks(TArray<class UPerk*>& Perks, const struct FCharacterProfile& Profile)
 {}
-void UMordhauUtilityLibrary::GetCustomConfigVar_Color(const FString& SectionName, const FString& VariableName, bool IsValid, struct FLinearColor& colorReturn)
-{}
+void UMordhauUtilityLibrary::GetCustomConfigVar_Color(FString SectionName, FString VariableName, bool & IsValid, FLinearColor & colorReturn)
+{
+}
 void UMordhauUtilityLibrary::GetBoundingBoxOfBoneInfluence(class USkeletalMeshComponent* MeshComponent, TArray<FName> Bones, float WeightThreshold, struct FBox& boxRef)
 {}
 class AActor* UMordhauUtilityLibrary::GetAttachParentActor(class AActor* Actor)
@@ -52,29 +50,11 @@ void UMordhauUtilityLibrary::FindSteamID(const FString& PlayerNameOrSteamID)
 {}
 //EServerRegion GetRegion(const FString& RegionName);
 
-
-
-
-
-
-
-
 //struct FBox GetPhysicsBodyBounds(class USkeletalMeshComponent* MeshComponent, const FName& BoneName);
-
-
-
-
-
-
-
-
 
 //struct FMapInfo GetMapInfo(class UObject* WorldContextObject, const FString& MapPath);
 
 //struct FBoxSphereBounds GetImportedBounds(class USkeletalMeshComponent* SkeletalMeshComponent);
-
-
-
 
 class UMordhauWearable* UMordhauUtilityLibrary::GetDefaultWearable(class UClass* FromClass)
 {
@@ -128,23 +108,6 @@ class AMordhauEquipment* UMordhauUtilityLibrary::GetRandomEquipment(const struct
 {
 	return nullptr;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 void UMordhauUtilityLibrary::DrawText(class UCanvas* Canvas, class UFont* Font, int Size, const FString& Text, const struct FVector2D& Position, const struct FLinearColor& TextColor, float Kerning, const struct FLinearColor& ShadowColor, const struct FVector2D& ShadowOffset, bool bCentreX, bool bCentreY, bool bOutlined, const struct FLinearColor& OutlineColor)
 {
@@ -201,7 +164,7 @@ void UMordhauUtilityLibrary::SetCustomConfigVar_String(const FString& SectionNam
 void UMordhauUtilityLibrary::SetCustomConfigVar_Rotator(const FString& SectionName, const FString& VariableName, const struct FRotator& Value)
 {
 }
-void UMordhauUtilityLibrary::SetCustomConfigVar_Int(const FString& SectionName, const FString& VariableName, int Value)
+void UMordhauUtilityLibrary::SetCustomConfigVar_Int(const FString & SectionName, const FString & VariableName, int32 Value)
 {
 }
 void UMordhauUtilityLibrary::SetCustomConfigVar_Float(const FString& SectionName, const FString& VariableName, float Value)
@@ -211,6 +174,32 @@ void UMordhauUtilityLibrary::SetCustomConfigVar_Color(const FString& SectionName
 {
 }
 void UMordhauUtilityLibrary::SetCustomConfigVar_Bool(const FString& SectionName, const FString& VariableName, bool Value)
+{
+}
+TArray<FString> UMordhauUtilityLibrary::SortStringArray(const TArray<FString>& Array, bool bSortAscending)
+{
+	return TArray<FString>();
+}
+TArray<int> UMordhauUtilityLibrary::SortIntArray(const TArray<int>& Array, bool bSortAscending)
+{
+	return TArray<int>();
+}
+TArray<UObject*> UMordhauUtilityLibrary::SortArrayByProperty(const TArray<UObject*>& Array, const FName & PropertyName, bool bAscending, bool & bWasTypeValid)
+{
+	return TArray<UObject*>();
+}
+bool UMordhauUtilityLibrary::CallFunctionByNameWithArgs(const FString & Str, UObject * Executor)
+{
+	return false;
+}
+
+TArray<FString> UMordhauUtilityLibrary::GetCustomConfigVar_Array(FString SectionName, FString VariableName, int & ArraySize)
+{
+	return TArray<FString>();
+}
+
+
+void UMordhauUtilityLibrary::SetCustomConfigVar_Array(FString SectionName, FString VariableName, TArray<FString> Value)
 {
 }
 void UMordhauUtilityLibrary::SetCanEverAffectNavigation(class UActorComponent* ActorComponent, bool bRelevant)
@@ -250,17 +239,17 @@ struct FVector2D UMordhauUtilityLibrary::GetMousePosition(class APlayerControlle
 {
 	return { 1,1 };
 }
-struct FVector2D UMordhauUtilityLibrary::GetCustomConfigVar_Vector2D(const FString& SectionName, const FString& VariableName, bool IsValid)
+struct FVector2D UMordhauUtilityLibrary::GetCustomConfigVar_Vector2D(FString SectionName, FString VariableName, bool & IsValid)
 {
-	return { 1,1 };
+	return FVector2D();
 }
-struct FVector UMordhauUtilityLibrary::GetCustomConfigVar_Vector(const FString& SectionName, const FString& VariableName, bool IsValid)
+struct FVector UMordhauUtilityLibrary::GetCustomConfigVar_Vector(FString SectionName, FString VariableName, bool & IsValid)
 {
-	return { 1,1,1 };
+	return FVector();
 }
-struct FRotator UMordhauUtilityLibrary::GetCustomConfigVar_Rotator(const FString& SectionName, const FString& VariableName, bool IsValid)
+struct FRotator UMordhauUtilityLibrary::GetCustomConfigVar_Rotator(FString SectionName, FString VariableName, bool & IsValid)
 {
-	return { 1,1,1 };
+	return FRotator();
 }
 struct FVector UMordhauUtilityLibrary::GetComponentsBoundingBoxInActorSpace(class AActor* Actor)
 {
@@ -291,10 +280,7 @@ struct FVector UMordhauUtilityLibrary::GetRandomFaceCustomizationVector(float Ra
 }
 void UMordhauUtilityLibrary::GetPhysicsBodyWorldTransform(class USkeletalMeshComponent* MeshComponent, const FName& BoneName, struct FTransform& transformPlacehldr)
 {
-
 }
-
-
 
 FString UMordhauUtilityLibrary::GetEnumKey(const FString& EnumName, int EnumValue)
 {
@@ -328,9 +314,9 @@ FText UMordhauUtilityLibrary::getErrorText(const FString& ErrorString)
 {
 	return placeholder;
 }
-FString UMordhauUtilityLibrary::GetCustomConfigVar_String(const FString& SectionName, const FString& VariableName, bool IsValid)
+FString UMordhauUtilityLibrary::GetCustomConfigVar_String(FString SectionName, FString VariableName, bool & IsValid)
 {
-	return "1";
+	return FString();
 }
 FString UMordhauUtilityLibrary::GetConsoleVariableString(const FString& VariableName)
 {
@@ -344,10 +330,6 @@ FString UMordhauUtilityLibrary::Capitalize(const FString& String)
 {
 	return "1";
 }
-
-
-
-
 
 class AMordhauPlayerState* UMordhauUtilityLibrary::FindPlayerState(const FString& PlayerNameOrSteamID)
 {
@@ -534,17 +516,17 @@ int UMordhauUtilityLibrary::GetEnumValue(const FString& EnumName, const FString&
 {
 	return 1;
 }
-int UMordhauUtilityLibrary::GetCustomConfigVar_Int(const FString& SectionName, const FString& VariableName, bool IsValid)
+int32 UMordhauUtilityLibrary::GetCustomConfigVar_Int(FString SectionName, FString VariableName, bool & IsValid)
 {
-	return 1;
+	return int32();
 }
-float UMordhauUtilityLibrary::GetCustomConfigVar_Float(const FString& SectionName, const FString& VariableName, bool IsValid)
+float UMordhauUtilityLibrary::GetCustomConfigVar_Float(FString SectionName, FString VariableName, bool & IsValid)
 {
-	return 1;
+	return 0.0f;
 }
-bool UMordhauUtilityLibrary::GetCustomConfigVar_Bool(const FString& SectionName, const FString& VariableName, bool IsValid)
+bool UMordhauUtilityLibrary::GetCustomConfigVar_Bool(FString SectionName, FString VariableName, bool & IsValid)
 {
-	return 1;
+	return false;
 }
 int UMordhauUtilityLibrary::GetCurrentFrameBP(class UObject* WorldContextObject)
 {
@@ -628,8 +610,6 @@ bool UMordhauUtilityLibrary::AreActorsFromSameLevel(class AActor* ActorA, class 
 	return 1;
 }
 
-
-
 class AMordhauEquipment* UMordhauUtilityLibrary::GetRandomMeleeWeapon(const struct FSkillsCustomization& SkillsCustomization, EItemRarity MaxRarity, int ID)
 {
 	return nullptr;
@@ -642,8 +622,6 @@ EServerRegion UMordhauUtilityLibrary::GetRegion(const FString& RegionName)
 {
 	return serverReg;
 }
-
-
 
 class UMordhauWebAPI* UMordhauUtilityLibrary::GetMordhauWebAPI()
 {
@@ -669,8 +647,6 @@ class UMordhauInventory* UMordhauUtilityLibrary::GetMordhauInventory()
 {
 	return nullptr;
 }
-
-
 
 class ULegsWearable* UMordhauUtilityLibrary::GetRandomLegsWearable(const struct FSkillsCustomization& SkillsCustomization, EItemRarity MaxRarity, int ID)
 {
@@ -728,5 +704,3 @@ class UArchetype* UMordhauUtilityLibrary::GetArchetypeObject(const struct FChara
 void UMordhauUtilityLibrary::ResetController(AController * Controller)
 {
 }
-
-

@@ -8,16 +8,16 @@
 #include "Engine/EngineTypes.h"
 #include "DummyActor.h"
 #include "MordhauUtilityLibrary.generated.h"
-
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnRconStringCommand, const FString &, Payload);
 /**
  *
  */
+
 UCLASS(Blueprintable)
 class MORDHAU_API UMordhauUtilityLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 public:
-
 
 	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
 		static TArray<class AMordhauPlayerState*> SortPlayers(TArray<class AMordhauPlayerState*> Array);
@@ -55,22 +55,6 @@ public:
 		static void SetForceMipStreaming(class USkeletalMeshComponent* SMC, bool bValue);
 	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
 		static void SetDecalFadeScreenSize(class UDecalComponent* Decal, float NewFadeScreenSize);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static void SetCustomConfigVar_Vector2D(const FString& SectionName, const FString& VariableName, const struct FVector2D& Value);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static void SetCustomConfigVar_Vector(const FString& SectionName, const FString& VariableName, const struct FVector& Value);
-	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
-		static void SetCustomConfigVar_String(const FString& SectionName, const FString& VariableName, const FString& Value);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static void SetCustomConfigVar_Rotator(const FString& SectionName, const FString& VariableName, const struct FRotator& Value);
-	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
-		static void SetCustomConfigVar_Int(const FString& SectionName, const FString& VariableName, int Value);
-	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
-		static void SetCustomConfigVar_Float(const FString& SectionName, const FString& VariableName, float Value);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static void SetCustomConfigVar_Color(const FString& SectionName, const FString& VariableName, const struct FLinearColor& Value);
-	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
-		static void SetCustomConfigVar_Bool(const FString& SectionName, const FString& VariableName, bool Value);
 	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
 		static void SetCanEverAffectNavigation(class UActorComponent* ActorComponent, bool bRelevant);
 	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
@@ -175,7 +159,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
 		static void GetRandomSkin(int32& ID, struct FEquipmentSkinEntry& Skin, class AMordhauEquipment* Equipment, EItemRarity MaxRarity);
 
-
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 		static struct FVector GetRandomFaceCustomizationVector(float RandomExponent);
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
@@ -227,22 +210,6 @@ public:
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 		static class AActor* GetDefaultActor(class UClass* FromClass);
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static struct FVector2D GetCustomConfigVar_Vector2D(const FString& SectionName, const FString& VariableName, bool IsValid);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static struct FVector GetCustomConfigVar_Vector(const FString& SectionName, const FString& VariableName, bool IsValid);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static FString GetCustomConfigVar_String(const FString& SectionName, const FString& VariableName, bool IsValid);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static struct FRotator GetCustomConfigVar_Rotator(const FString& SectionName, const FString& VariableName, bool IsValid);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static int GetCustomConfigVar_Int(const FString& SectionName, const FString& VariableName, bool IsValid);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static float GetCustomConfigVar_Float(const FString& SectionName, const FString& VariableName, bool IsValid);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static void GetCustomConfigVar_Color(const FString& SectionName, const FString& VariableName, bool IsValid, struct FLinearColor& colorReturn);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
-		static bool GetCustomConfigVar_Bool(const FString& SectionName, const FString& VariableName, bool IsValid);
-	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 		static int GetCurrentFrameBP(class UObject* WorldContextObject);
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 		static int GetCurrentFrame(class UWorld* World);
@@ -293,14 +260,10 @@ public:
 
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 		static bool FindCircleIntersectionPoints(const struct FVector2D& CenterA, const float RadiusA, const struct FVector2D& CenterB, const float RadiusB, FVector2D& PointA, FVector2D& PointB);
-		
 
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 		static void AwardDuelMMR(const struct FSteamID& Winner, const struct FSteamID& Loser, int& NewWinnerMMR, int& NewLoserMMR);
 
-
-
-	
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 		static struct FRotator FindBetween(const struct FVector& A, const struct FVector& B);
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
@@ -330,21 +293,18 @@ public:
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 		static bool AreActorsFromSameLevel(class AActor* ActorA, class AActor* ActorB);
 
-
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 		static EServerRegion GetRegion(const FString& RegionName);
 	//struct FBox GetPhysicsBodyBounds(class USkeletalMeshComponent* MeshComponent, const FName& BoneName);
 //UFUNCTION(BlueprintPure, BlueprintCallable, Category = "UtilityFunctions")
 	//struct FMapInfo GetMapInfo(class UObject* WorldContextObject, const FString& MapPath);
-//struct FBoxSphereBounds GetImportedBounds(class USkeletalMeshComponent* SkeletalMeshComponent);	
+//struct FBoxSphereBounds GetImportedBounds(class USkeletalMeshComponent* SkeletalMeshComponent);
 	//TArray<class AMordhauPlayerState*> SortPlayers(TArray<class AMordhauPlayerState*> Array);
 	//TArray<struct FServerSearchResult> SortForServerBrowser(TArray<struct FServerSearchResult> Array);
 	//TArray<struct FServerSearchResult> SortForMatchmaking(TArray<struct FServerSearchResult> Array);
 	//static void SetSoundMixVolume(ESoundMix SoundMix, float Volume);
 	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions", meta = (bIgnoreSelf = "true", WorldContext = "WorldContextObject", AutoCreateRefTerm = "ActorsToIgnore"))
 		static bool PlaneTrace(class UObject* WorldContextObject, const struct FVector Left, const struct FVector Right, const struct FVector Forward, const struct FVector Back, const struct FVector TraceAmount, const TArray<TEnumAsByte<EObjectTypeQuery> > & ObjectTypes, bool bTraceComplex, const TArray<AActor*>& ActorsToIgnore, bool bConnectLeftRight, bool bConnectForwardBack, const struct FVector ConnectOffset, FHitResult& LeftHit, FHitResult& RightHit, FHitResult& ForwardHit, FHitResult& BackHit, FVector& OutRight, FVector& OutForward, bool bIgnoreSelf);
-
-
 
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "UtilityFunctions", meta = (WorldContext = "WorldContextObject", AutoCreateRefTerm = "ActorsToIgnore"))
 		static bool MordhauApplyRadialDamageWithFalloff(class UObject* WorldContextObject, float BaseDamage, float MinimumDamage, float BaseStructureDamage, float MinimumStructureDamage, const struct FVector& Origin, float DamageInnerRadius, float DamageOuterRadius, float DamageFalloff, TArray<class AActor*> IgnoreActors, float BaseKnockback, float MinimumKnockback, float RagdollFallRadius, class AActor* DamageCauser, class AController* InstigatedByController, TEnumAsByte<ECollisionChannel> DamagePreventionChannel, bool bIgnoreFriendly);
@@ -393,4 +353,54 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "UtilityFunctions")
 		static void ResetController(class AController* Controller);
+
+	//Get custom ConfigVars (fixed)
+	UFUNCTION(BlueprintPure, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static struct FVector2D GetCustomConfigVar_Vector2D(FString SectionName, FString VariableName, bool& IsValid);
+	UFUNCTION(BlueprintPure, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static struct FVector GetCustomConfigVar_Vector(FString SectionName, FString VariableName, bool& IsValid);
+	UFUNCTION(BlueprintPure, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static FString GetCustomConfigVar_String(FString SectionName, FString VariableName, bool& IsValid);
+	UFUNCTION(BlueprintPure, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static struct FRotator GetCustomConfigVar_Rotator(FString SectionName, FString VariableName, bool& IsValid);
+	UFUNCTION(BlueprintPure, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static int32 GetCustomConfigVar_Int(FString SectionName, FString VariableName, bool& IsValid);
+	UFUNCTION(BlueprintPure, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static float GetCustomConfigVar_Float(FString SectionName, FString VariableName, bool& IsValid);
+	UFUNCTION(BlueprintPure, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void GetCustomConfigVar_Color(FString SectionName, FString VariableName, bool& IsValid, struct FLinearColor& colorReturn);
+	UFUNCTION(BlueprintPure, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static bool GetCustomConfigVar_Bool(FString SectionName, FString VariableName, bool& IsValid);
+
+	//Set CustomConfig Vars (fixed)
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void SetCustomConfigVar_Vector2D(const FString& SectionName, const FString& VariableName, const struct FVector2D& Value);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void SetCustomConfigVar_Vector(const FString& SectionName, const FString& VariableName, const struct FVector& Value);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void SetCustomConfigVar_String(const FString& SectionName, const FString& VariableName, const FString& Value);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void SetCustomConfigVar_Rotator(const FString& SectionName, const FString& VariableName, const struct FRotator& Value);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void SetCustomConfigVar_Int(const FString& SectionName, const FString& VariableName, int32 Value);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void SetCustomConfigVar_Float(const FString& SectionName, const FString& VariableName, float Value);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void SetCustomConfigVar_Color(const FString& SectionName, const FString& VariableName, const struct FLinearColor& Value);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void SetCustomConfigVar_Bool(const FString& SectionName, const FString& VariableName, bool Value);
+
+	//Extra functions by Battlefield Recapitator
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library")
+		static TArray<FString> SortStringArray(const TArray<FString>& Array, bool bSortAscending);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library")
+		static TArray<int> SortIntArray(const TArray<int>& Array, bool bSortAscending);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library")
+		static TArray<UObject *> SortArrayByProperty(const TArray<UObject *>& Array, const FName & PropertyName, bool bAscending, bool & bWasTypeValid);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library")
+		static bool CallFunctionByNameWithArgs(const FString & Str, UObject* Executor);
+	UFUNCTION(BlueprintPure, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static TArray<FString> GetCustomConfigVar_Array(FString SectionName, FString VariableName, int& ArraySize);
+	UFUNCTION(BlueprintCallable, Category = "Mordhau Utility Library|Custom Config Vars!")
+		static void SetCustomConfigVar_Array(FString SectionName, FString VariableName, TArray<FString> Value);
 };
